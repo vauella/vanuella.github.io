@@ -1,61 +1,68 @@
+name: Quarto Publish
+
+on:
+  push:
+    branches: ["main"]  # Trigger on pushes to the 'main' branch
+  workflow_dispatch:  # Allow manual triggering from the GitHub Actions tab
+
+permissions:
+  contents: write      # Needed to commit changes (e.g., after rendering)
+  pages: write         # Needed to deploy to GitHub Pages
+  id-token: write      # Needed for OIDC authentication
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Quarto
+      - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Install R
-        uses: r-lib/actions/setup-r@v2
         with:
-          use-public-rspm: true
+          version: "latest" # or specify a version like "v1.4" if needed
 
+      # Set up a writable R library path
       - name: Set up R library path
         run: |
           mkdir -p ~/R/library
-          echo 'R_LIBS_USER="~/R/library"' > ~/.Renviron
+          echo 'R_LIBS_USER="~/R/library"' >> ~/.Renviron
+          echo "R_LIBS_USER=$(Rscript -e 'cat(Sys.getenv(\"R_LIBS_USER\"))')" >> $GITHUB_ENV # Make it available for subsequent steps
 
+      # Install system dependencies
       - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+        run: sudo apt-get install -y libcurl4-openssl-dev libssl-dev #Added libssl-dev
 
-      - name: Install renv and activate environment
+      # Install renv and restore dependencies
+      - name: Install renv and restore dependencies
         run: |
           R -e 'install.packages("renv")'
-          R -e 'renv::activate()'  # Activate the renv environment
-          R -e 'renv::restore()'   # Restore dependencies
+          R -e 'renv::restore()'
 
-      - name: Clean _site directory
-        run: |
-          rm -rf _site
-
-      - name: Render Quarto Project
-        uses: quarto-dev/quarto-actions/render@v2
-
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -A
-          git diff-index --quiet HEAD || git commit -m "Automated render and deploy by GitHub Actions"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      - name: Render Quarto website
+        run: quarto render
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: ./_site
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push Changes (optional, only if you modify files during the build)
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m "Automated render by GitHub Actions" -a || echo "No changes to commit"
+          git push origin main
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
