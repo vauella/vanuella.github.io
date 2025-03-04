@@ -2,13 +2,13 @@ name: Quarto Publish
 
 on:
   push:
-    branches: ["main"]  # Trigger on pushes to the 'main' branch
-  workflow_dispatch:  # Allow manual triggering from the GitHub Actions tab
+    branches: ["main"]
+  workflow_dispatch:
 
 permissions:
-  contents: write      # Needed to commit changes (e.g., after rendering)
-  pages: write         # Needed to deploy to GitHub Pages
-  id-token: write      # Needed for OIDC authentication
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: "pages"
@@ -18,24 +18,23 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Setup Quarto
+      - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: "latest" # or specify a version like "v1.4" if needed
+          version: "latest" # Or specify a version like "v1.4.549"
 
       # Set up a writable R library path
       - name: Set up R library path
         run: |
           mkdir -p ~/R/library
-          echo 'R_LIBS_USER="~/R/library"' >> ~/.Renviron
-          echo "R_LIBS_USER=$(Rscript -e 'cat(Sys.getenv(\"R_LIBS_USER\"))')" >> $GITHUB_ENV # Make it available for subsequent steps
+          echo 'R_LIBS_USER="~/R/library"' > ~/.Renviron
 
       # Install system dependencies
       - name: Install system dependencies
-        run: sudo apt-get install -y libcurl4-openssl-dev libssl-dev #Added libssl-dev
+        run: sudo apt-get install -y libcurl4-openssl-dev
 
       # Install renv and restore dependencies
       - name: Install renv and restore dependencies
@@ -43,26 +42,21 @@ jobs:
           R -e 'install.packages("renv")'
           R -e 'renv::restore()'
 
-      - name: Render Quarto website
-        run: quarto render
+      - name: Clean _site directory
+        run: |
+          rm -rf _site
+
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: "_site"
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit and Push Changes (optional, only if you modify files during the build)
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -A
-          git commit -m "Automated render by GitHub Actions" -a || echo "No changes to commit"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/deploy-pages@v2
