@@ -1,0 +1,55 @@
+project:
+  type: website
+
+website:
+  title: "Vanuella"
+  image: images/vanu-logo-150px.png
+  favicon: images/vanu-favicon.png
+  twitter-card:
+    site: "@Vanuella"
+  open-graph: true
+  site-url: https://www.Vanuella.com/
+  repo-url: https://github.com/vanuella/vanuella.github.io
+  repo-actions: [edit, issue]
+  navbar:
+    toggle-position: right
+    background: "#f0eeeb"
+    logo: images/vanu-logo-150px.png
+    logo-alt: "Vanuella brand"
+    title: false
+    collapse-below: lg
+    right:
+      - text: "About"
+        menu:
+          - text: "Why we sing"
+            href: about/why-we-sing.qmd
+          - text: "Vanuella"
+            href: about/vanuella.qmd
+      - text: "Events"
+        href: events/index.qmd
+        menu:
+          - text: "Latest"
+            href: events/latest.qmd
+      - text: "Contact"
+        href: contact.qmd
+
+  page-footer:
+    left: "Copyright © 2025 Vanuella. All rights reserved."
+    right:
+      - icon: github
+        href: https://github.com/vanuella
+      - icon: twitter
+        href: https://twitter.com/vanuella
+
+format:
+  html:
+    theme: [cyborg, vanuella.scss]
+    css: vanuella.css
+    toc: true
+    grid:
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 250px
+
+execute:
+  freeze: auto

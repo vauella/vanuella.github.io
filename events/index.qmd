@@ -1,0 +1,25 @@
+---
+title: "Events"
+page-layout: full
+title-block-banner: true
+---
+
+# Events
+
+this are events
+
+## Featured Events
+
+::: {.grid}
+
+::: {.g-col-4}
+### Events Fundamentals
+Learn the basics of Events.
+[Learn More](/events/latest.qmd){.btn .btn-primary}
+:::
+
+
+:::
+
+[Browse All Events](#){.btn .btn-secondary}
+
