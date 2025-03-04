@@ -6,7 +6,6 @@
 /.vscode/
 _site/
 _freeze/
-renv/
 /_site
 /_site/
 /raw_data/
