@@ -19,12 +19,10 @@ website:
     title: false
     collapse-below: lg
     right:
-      - text: "About"
-        menu:
-          - text: "Why we sing"
-            href: about/why-we-sing.qmd
-          - text: "Vanuella"
-            href: about/vanuella.qmd
+      - text: "Gallery"
+        href: gallery/index.qmd
+      - text: "Vanuella"
+        href: vanuella.qmd
       - text: "Events"
         href: events/index.qmd
         menu:
@@ -44,7 +42,8 @@ website:
 format:
   html:
     theme: [cyborg, vanuella.scss]
-    css: vanuella.css
+    css: 
+      - vanuella.css
     toc: true
     grid:
       sidebar-width: 0px

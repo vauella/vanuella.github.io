@@ -1,0 +1,11 @@
+---
+title: "Gallery"
+page-layout: full
+title-block-banner: true
+---
+
+# Gallery
+
+![Vanuella](/images/vanuella.png){fig-align="center"}
+
+[Browse All Events](#){.btn .btn-secondary}
