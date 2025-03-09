@@ -1,58 +1,20 @@
 ---
 pagetitle: Vanuella | The Data Sing
 title: Vanuella
-subtitle: "Explore the concepts, tools, and methods that power data singing innovation"
-search: true
-repo-actions: false
-listing:
-  contents: 
-  - events
-  - about
-  - "!index.qmd"
-  sort: "date desc"
-  type: grid
-  categories: false
-  sort-ui: true
-  filter-ui: true
-  page-size: 12
-  feed: true
+subtitle: "Discover the musical universe that creates the bridge between music and love through the soul"
 page-layout: full
 title-block-banner: true
 ---
 
-## What You'll Find Here
+# All Songs
 
-::: {.grid}
+Explore all the songs by Vanuella:
 
-::: {.g-col-4}
-### [Vanuella](vanuella.qmd)
-Bite-sized data singing concepts explained simply. Perfect for quick learning and inspiration.
-:::
-
-::: {.g-col-4}
-### [Why we sing](about/why-we-sing.qmd)
-Step-by-step guides to master essential data singing skills and tools.
-:::
-
-:::
-
-## Featured Sing Tank
-
-::: {#featured-Singtank}
-:::
-
-## Explore All Singtank
-
-Use the filters and search below to find exactly what you're looking for:
-
-::: {#listing}
-:::
-
-
-## Stay Inspired
-
-Subscribe to our newsletter for weekly doses of data singing inspiration:
-
-::: {#newsletter-signup}
-[Get Weekly Insights](#){.btn .btn-secondary}
+::: {.song-pills}
+- [Dreamwalker](dreamwalker.qmd){.song-button}
+- [Midnight Whispers](midnight-whispers.qmd){.song-button}
+- [Celestial Dance](celestial-dance.qmd){.song-button}
+- [Ocean of Stars](ocean-of-stars.qmd){.song-button}
+- [Purple Haze](purple-haze.qmd){.song-button}
+- [Ethereal Journey](ethereal-journey.qmd){.song-button}
 :::

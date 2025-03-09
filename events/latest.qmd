@@ -1,20 +1,18 @@
 ---
-title: "Latest Events"
-subtitle: "Dive into the last Events!"
-page-layout: article
-title-block-banner: true
+title: "latest"
+format: html
 ---
 
-# Events
 
-## What 
+# All Songs
 
-1. 🦈 **The Events Lifecycle**: Understand the steps 
+Explore all the songs by Vanuella:
 
-## Where
-
-2. 🦈 **The Events Lifecycle**: Understand the steps 
-
-## When
-
-3. 🦈 **The Events Lifecycle**: Understand the steps 
+::: {.song-pills}
+- [Dreamwalker](dreamwalker.qmd){.song-button}
+- [Midnight Whispers](midnight-whispers.qmd){.song-button}
+- [Celestial Dance](celestial-dance.qmd){.song-button}
+- [Ocean of Stars](ocean-of-stars.qmd){.song-button}
+- [Purple Haze](purple-haze.qmd){.song-button}
+- [Ethereal Journey](ethereal-journey.qmd){.song-button}
+:::

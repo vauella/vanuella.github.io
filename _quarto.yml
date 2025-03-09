@@ -13,23 +13,22 @@ website:
   repo-actions: [edit, issue]
   navbar:
     toggle-position: right
-    background: "#f0eeeb"
+    background: "#8d4f9e"
     logo: images/vanu-logo-150px.png
     logo-alt: "Vanuella brand"
     title: false
     collapse-below: lg
     right:
-      - text: "Gallery"
-        href: gallery/index.qmd
-      - text: "Vanuella"
-        href: vanuella.qmd
       - text: "Events"
         href: events/index.qmd
-        menu:
-          - text: "Latest"
-            href: events/latest.qmd
-      - text: "Contact"
-        href: contact.qmd
+      - text: "Songs"
+        href: songs/index.qmd
+      - text: "Videos"
+        href: videos/index.qmd
+      - text: "Media"
+        href: media/index.qmd
+      - text: "Gallery"
+        href: gallery/index.qmd
 
   page-footer:
     left: "Copyright © 2025 Vanuella. All rights reserved."
@@ -41,14 +40,9 @@ website:
 
 format:
   html:
-    theme: [cyborg, vanuella.scss]
+    theme: [vanuella.scss]
     css: 
       - vanuella.css
-    toc: true
-    grid:
-      sidebar-width: 0px
-      body-width: 1000px
-      margin-width: 250px
 
 execute:
   freeze: auto
