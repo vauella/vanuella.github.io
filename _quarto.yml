@@ -3,12 +3,13 @@ project:
 
 website:
   title: "Vanuella"
+  description: "Discover the musical universe that creates the bridge between music and love through the soul" # Added Description
   image: images/vanu-logo-150px.png
   favicon: images/vanu-favicon.png
   twitter-card:
     site: "@Vanuella"
   open-graph: true
-  site-url: https://www.Vanuella.com/
+  site-url: https://www.vanuella.com/
   repo-url: https://github.com/vanuella/vanuella.github.io
   repo-actions: [edit, issue]
   navbar:
@@ -29,7 +30,10 @@ website:
         href: media/index.qmd
       - text: "Gallery"
         href: gallery/index.qmd
-
+      - icon: github
+        href: https://github.com/vanuella
+      - icon: twitter
+        href: https://twitter.com/vanuella # Moved to page-footer
   page-footer:
     left: "Copyright © 2025 Vanuella. All rights reserved."
     right:
@@ -38,9 +42,10 @@ website:
       - icon: twitter
         href: https://twitter.com/vanuella
 
+
 format:
   html:
-    theme: [vanuella.scss]
+    theme: [default, vanuella.scss]
     css: 
       - vanuella.css
 
