@@ -3,7 +3,7 @@ title: "Gallery"
 page-layout: full
 title-block-banner: true
 ---
-
+here is the photo 
 !["Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."](/images/vanuella.png){fig-align="center"}
 
 !["Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."](/images/vanuella.png){fig-align="center"}
