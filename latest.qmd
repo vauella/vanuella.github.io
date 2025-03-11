@@ -5,16 +5,4 @@ page-layout: article
 title-block-banner: true
 ---
 
-# Events
-
-## What 
-
-1. 🦈 **The Events Lifecycle**: Understand the steps 
-
-## Where
-
-2. 🦈 **The Events Lifecycle**: Understand the steps 
-
-## When
-
-3. 🦈 **The Events Lifecycle**: Understand the steps 
+# Latest Events
