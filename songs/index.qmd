@@ -8,7 +8,7 @@ Explore all the songs by Vanuella:
 
 ::: {.song-pills}
 
-- [Song 1](song1.qmd){.song-button .pill}
+- [RESPIRE](respire.qmd){.song-button .pill}
 - [Song 2](song2.qmd){.song-button .pill}
 
 :::
