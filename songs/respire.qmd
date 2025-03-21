@@ -139,111 +139,52 @@ cat(paste0(
 ```{r}
 #| echo: false
 #| results: 'asis'
-lyrics_fr <- c(
-  "Verse 1",
-  "Il y a des matins où les mots sont vides",
-  "Où tout semble perdu dans l'obscurité",
-  "Quand le silence pèse comme une ancre",
-  "Et que l'espoir s'efface peu à peu",
-  "",
-  "Chorus",
-  "Respire, donne-toi la chance de tout recommencer",
-  "Respire, laisse le temps te porter",
-  "Comme une vague qui efface les traces du passé",
-  "Respire, et redeviens qui tu es"
+lyrics_fr <- c( "Y’a des matins où les mots sont vides
+Où même la vie te semble fragile
+Où tous tes rêves ne sont que mirages 
+Comme tous ces gens qui te dévisagent
+
+Il y a des nuits où tous les secrets
+Sont bien plus lourds qu’une insomnie
+Seul(e) dans le noir au fond de ton lit
+Tu te répares
+
+Résiste, respire
+Donne-toi la chance de tout recommencer
+Résiste, respire 
+Je te donne ma force tu peux encore tout changer
+
+Je sens en toi, cette violence
+Comme une arrogance,
+Dans cet enfer il t’a fait tomber
+Ce cœur qui crie dans le silence,
+C’est ta souffrance,
+Brisé tes rêves
+Blessée ton âme
+Mais faut que tu résistes, que tu respires
+Que tu te donnes la chance de tout recommencer
+Que tu résistes, que tu respires
+Je te donne ma force tu vas y arriver
+
+Moi je crois en toi, en ton étoile,
+Qui brille au creux de tes rêves
+Oh tu respires
+Allez viens viens viens, on peut tout recommencer
+éééééé aaaaa ooooooo...
+Resiste je t’en prie, respire
+Donne-toi la chance de tout recommencer
+
+Je veux que tu resiste, je veux que tu respires
+Aaaaaaa, ooooooo,
+Resiste je t’en prie, respire
+Donne-toi la chance de tout recommencer
+Resiste je t’en prie, respire
+Respire…"
 )
 
-cat(paste(lyrics_fr, collapse = "\n\n"))
+cat(paste(lyrics_fr))
 ```
-
-### English Translation
-
-```{r}
-#| echo: false
-#| results: 'asis'
-lyrics_en <- c(
-  "Verse 1",
-  "There are mornings when words are empty",
-  "When everything seems lost in darkness",
-  "When silence weighs like an anchor",
-  "And hope fades little by little",
-  "",
-  "Chorus",
-  "Breathe, give yourself the chance to start over",
-  "Breathe, let time carry you",
-  "Like a wave that erases traces of the past",
-  "Breathe, and become who you are again"
-)
-
-cat(paste(lyrics_en, collapse = "\n\n"))
-```
-
-### Romanized
-
-```{r}
-#| echo: false
-#| results: 'asis'
-lyrics_rom <- c(
-  "Verse 1",
-  "Il y a des matins où les mots sont vides [eel yah day mah-tan oo lay mo son veed]",
-  "Où tout semble perdu dans l'obscurité [oo too sahm-bluh pair-doo dahn lob-skyoo-ree-tay]",
-  "Quand le silence pèse comme une ancre [kahn luh see-lahns pez kohm oon ahn-kruh]",
-  "Et que l'espoir s'efface peu à peu [ay kuh les-pwar sef-fas puh ah puh]",
-  "",
-  "Chorus",
-  "Respire, donne-toi la chance de tout recommencer [res-peer, don-twa lah shahns duh too ruh-koh-mahn-say]",
-  "Respire, laisse le temps te porter [res-peer, less luh tahn tuh por-tay]",
-  "Comme une vague qui efface les traces du passé [kohm oon vag kee ef-fas lay tras doo pah-say]",
-  "Respire, et redeviens qui tu es [res-peer, ay ruh-duh-vyahn kee too ay]"
-)
-
-cat(paste(lyrics_rom, collapse = "\n\n"))
 :::
-
-## **By the Numbers** 📊
-
-```{r}
-#| echo: false
-#| fig-align: center
-library(echarts4r)
-
-engagement_data <- data.frame(
-  Metric = c("Streams (First Week)", "Social Shares", "Playlist Adds"),
-  Count = c(125000, 48000, 9200)
-)
-
-engagement_data |>
-  e_charts(x = Metric) |>
-  e_bar(
-    Count, 
-    name = "Engagement Metrics",
-    itemStyle = list(
-      borderRadius = 5,
-      shadowColor = "rgba(0, 0, 0, 0.3)",
-      shadowBlur = 5
-    )
-  ) |>
-  e_color(color = c("#66C2A5", "#FC8D62", "#8DA0CB")) |> # ColorBrewer Set2 palette
-  e_labels(
-    position = "top",
-    formatter = htmlwidgets::JS("
-      function(params) {
-        return Intl.NumberFormat('en-US').format(params.value[1]);
-      }
-    ")
-  ) |>
-  e_title(text = "Respire's Instant Impact", subtext = "First Week Performance") |>
-  e_theme("westeros") |>
-  e_legend(show = FALSE) |>
-  e_tooltip() |>
-  e_y_axis(show = FALSE) |>
-  e_x_axis(
-    axisLabel = list(
-      rotate = 45,
-      fontSize = 12
-    )
-  )
-```
 
 ## **Why It Resonates** ❤️🩹
 
@@ -267,8 +208,8 @@ engagement_data |>
 #| layout-ncol: 2
 
 credits <- data.frame(
-  Role = c("Composition", "Lyrics", "Production", "Direction"),
-  Name = c("Philippe Léger", "Stéphanie Watt", "Stéphanie Watt", "Stéphanie Watt")
+  Role = c("Musical arrangements","Composition", "Lyrics", "Production", "Direction"),
+  Name = c("Philippe Léger", "Stéphanie Watt", "Stéphanie Watt", "Stéphanie Watt", "Stéphanie Watt")
 )
 
 credits$Name <- paste0("**", credits$Name, "**")
