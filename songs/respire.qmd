@@ -35,6 +35,69 @@ tags$div(
 ```
 :::
 
+::: {.grid .song-info-card .mb-4}
+::: {.g-col-12 .g-col-md-6}
+### Quick Info 🎵
+- **Title:** Respire
+- **Artist:** Vanuella Watt
+- **Released:** 2024
+- **Genre:** Pop, Soul
+- **Language:** French
+- **Duration:** 3:45
+
+::: {.mt-3}
+### Stream Now 🎧
+```{r}
+#| echo: false
+tags$div(
+  class = "streaming-buttons",
+  style = "display: flex; gap: 10px; flex-wrap: wrap;",
+  tags$a(href = "https://open.spotify.com/artist/vanuella", target = "_blank",
+         class = "btn btn-success btn-sm", "Spotify"),
+  tags$a(href = "https://music.apple.com/artist/vanuella", target = "_blank",
+         class = "btn btn-danger btn-sm", "Apple Music"),
+  tags$a(href = "https://www.deezer.com/artist/vanuella", target = "_blank",
+         class = "btn btn-info btn-sm", "Deezer"),
+  tags$a(href = "https://www.youtube.com/watch?v=WttIAhgZwns", target = "_blank",
+         class = "btn btn-dark btn-sm", "YouTube Music")
+)
+```
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Next Live on Twitch 📺
+```{r}
+#| echo: false
+tags$div(
+  class = "schedule-card p-3",
+  style = "background: rgba(145, 70, 255, 0.1); border-radius: 8px;",
+  tags$h4("Upcoming Performances", class = "mb-3"),
+  tags$ul(
+    style = "list-style: none; padding-left: 0;",
+    tags$li("🎤 Tuesday 8PM (UTC+11) - Acoustic Session"),
+    tags$li("🎹 Friday 9PM (UTC+11) - Piano Covers"),
+    tags$li("🎸 Sunday 7PM (UTC+11) - Song Requests")
+  )
+)
+```
+:::
+:::
+
+::: {.text-center .mt-4 .mb-4}
+```{r}
+#| echo: false
+tags$a(
+  href = "https://www.twitch.tv/vanuella",
+  class = "btn btn-primary btn-lg",
+  target = "_blank",
+  style = "background-color: #9146FF; border-color: #9146FF; padding: 15px 30px; font-size: 1.2em;",
+  tags$i(class = "fab fa-twitch", style = "margin-right: 10px;"),
+  "Join Vanuella on Twitch!"
+)
+```
+:::
+
 ## **A Symphony of Survival** 🎶
 
 Vanuella Watt's *Respire* isn't just a song—it's **a musical lifeline** thrown to anyone struggling to stay afloat. The track, composed by Philippe Léger and Stéphanie Watt, is a masterful blend of raw emotion and uplifting energy. The lyrics, penned by Stéphanie Watt, speak to the universal experience of overcoming adversity, with lines like *"Il y a des matins où les mots sont vides"* (There are mornings where words are empty) and *"Respire, donne-toi la chance de tout recommencer"* (Breathe, give yourself a chance to start over) resonating deeply with listeners.
@@ -67,6 +130,75 @@ cat(paste0(
 
 :::
 :::::
+
+## **Full Lyrics** 📝
+
+::: {.panel-tabset .nav-pills}
+### French Original
+
+```{r}
+#| echo: false
+#| results: 'asis'
+lyrics_fr <- c(
+  "Verse 1",
+  "Il y a des matins où les mots sont vides",
+  "Où tout semble perdu dans l'obscurité",
+  "Quand le silence pèse comme une ancre",
+  "Et que l'espoir s'efface peu à peu",
+  "",
+  "Chorus",
+  "Respire, donne-toi la chance de tout recommencer",
+  "Respire, laisse le temps te porter",
+  "Comme une vague qui efface les traces du passé",
+  "Respire, et redeviens qui tu es"
+)
+
+cat(paste(lyrics_fr, collapse = "\n\n"))
+```
+
+### English Translation
+
+```{r}
+#| echo: false
+#| results: 'asis'
+lyrics_en <- c(
+  "Verse 1",
+  "There are mornings when words are empty",
+  "When everything seems lost in darkness",
+  "When silence weighs like an anchor",
+  "And hope fades little by little",
+  "",
+  "Chorus",
+  "Breathe, give yourself the chance to start over",
+  "Breathe, let time carry you",
+  "Like a wave that erases traces of the past",
+  "Breathe, and become who you are again"
+)
+
+cat(paste(lyrics_en, collapse = "\n\n"))
+```
+
+### Romanized
+
+```{r}
+#| echo: false
+#| results: 'asis'
+lyrics_rom <- c(
+  "Verse 1",
+  "Il y a des matins où les mots sont vides [eel yah day mah-tan oo lay mo son veed]",
+  "Où tout semble perdu dans l'obscurité [oo too sahm-bluh pair-doo dahn lob-skyoo-ree-tay]",
+  "Quand le silence pèse comme une ancre [kahn luh see-lahns pez kohm oon ahn-kruh]",
+  "Et que l'espoir s'efface peu à peu [ay kuh les-pwar sef-fas puh ah puh]",
+  "",
+  "Chorus",
+  "Respire, donne-toi la chance de tout recommencer [res-peer, don-twa lah shahns duh too ruh-koh-mahn-say]",
+  "Respire, laisse le temps te porter [res-peer, less luh tahn tuh por-tay]",
+  "Comme une vague qui efface les traces du passé [kohm oon vag kee ef-fas lay tras doo pah-say]",
+  "Respire, et redeviens qui tu es [res-peer, ay ruh-duh-vyahn kee too ay]"
+)
+
+cat(paste(lyrics_rom, collapse = "\n\n"))
+:::
 
 ## **By the Numbers** 📊
 
@@ -325,4 +457,3 @@ sentiment_analysis |>
   e_y_axis(axisLabel = list(rotate = 45)) |>
   e_x_axis(name = "Sentiment Score", nameLocation = "center", nameGap = 25)
 ```
-
