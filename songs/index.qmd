@@ -1,14 +1,28 @@
 ---
-title: "Songs"
+title: "Our Songs"
 ---
 
-# All Songs
+::: {.grid}
 
-Explore all the songs by Vanuella:
-
+::: {.g-col-12 .g-col-md-6}
+## Vanuella
 ::: {.song-pills}
-
 - [RESPIRE](respire.qmd){.song-button .pill}
-- [Song 2](song2.qmd){.song-button .pill}
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+## Miezucu AI
+::: {.song-pills}
+- [Ton Parfum dans l'Air](ton_parfum_dans_lair.qmd){.song-button .pill}
+- [Dreamwalker](dreamwalker.qmd){.song-button .pill}
+- [Midnight Whispers](midnight-whispers.qmd){.song-button .pill}
+- [Celestial Dance](celestial-dance.qmd){.song-button .pill}
+- [Ocean of Stars](ocean-of-stars.qmd){.song-button .pill}
+- [Purple Haze](purple-haze.qmd){.song-button .pill}
+- [Ethereal Journey](ethereal-journey.qmd){.song-button .pill}
+:::
+:::
 
 :::

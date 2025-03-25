@@ -10,3 +10,5 @@ _freeze/
 /_site/
 /raw_data/
 /data/
+index_v2.qmd
+_quarto_v2.yml

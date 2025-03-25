@@ -2,12 +2,6 @@
 title: "Vanuella Watt's 'Respire': A Song of Resilience and Hope"
 author: "Miezu"
 date: "2024-10-27"
-lang: fr
-language:
-  en:
-    title-block-published: "Vanuella Watt's 'Respire': A Song of Resilience and Hope"
-  fr:
-    title-block-published: "'Respire' de Vanuella Watt : une chanson de résilience et d'espoir"
 categories: [music, review, artist-spotlight]
 image: images/respire-header.jpg
 format:

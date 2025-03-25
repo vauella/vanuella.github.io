@@ -263,3 +263,85 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .social-links img:hover {
   transform: scale(1.1); /* Slightly enlarge on hover */
 }
+
+/* Language-specific content */
+.lang-fr, .lang-en {
+    display: none;
+}
+
+html[lang="fr"] .lang-fr {
+    display: inline;
+}
+
+html[lang="en"] .lang-en {
+    display: inline;
+}
+
+/* Language toggle button styling */
+#language-toggle {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#language-toggle:hover {
+    opacity: 0.8;
+}
+
+/* Language-specific content visibility */
+[data-lang]:not([data-lang='fr']):not([data-lang='en']) {
+    display: none !important;
+}
+
+/* Show French content by default */
+html[lang="fr"] [data-lang="fr"] {
+    display: block;
+}
+
+/* Show English content when English is selected */
+html[lang="en"] [data-lang="en"] {
+    display: block;
+}
+
+/* Footer text visibility */
+#footer-fr, #footer-en {
+    display: none;
+}
+
+html[lang="fr"] #footer-fr {
+    display: inline;
+}
+
+html[lang="en"] #footer-en {
+    display: inline;
+}
+
+/* Language dropdown styling */
+.language-select {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.language-select option {
+    background-color: #8d4f9e;
+    color: white;
+}
+
+.language-select:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.language-select:focus {
+    outline: none;
+    border-color: white;
+}
