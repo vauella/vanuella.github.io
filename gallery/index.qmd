@@ -1,9 +1,99 @@
 ---
-title: "Gallery"
-page-layout: full
-title-block-banner: true
+title: "Gallery" # This title is often hidden by the cover
+format: html
+lightbox: true        # Enable Quarto's lightbox feature (uses PhotoSwipe)
+page-layout: full     # Use full width for cover and gallery
 ---
-here is the photo 
-!["Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."](/images/vanuella.png){fig-align="center"}
 
-!["Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."](/images/vanuella.png){fig-align="center"}
+::::::: {.cover-section style="background-image: url('VANU_RESPIRE_POCHETTE.jpg?w=2000');"}
+:::::: cover-content
+::: cover-title
+Gallery
+:::
+
+::: cover-headline
+Vanuella Watt
+:::
+
+::: cover-body
+A curated collection of beautiful photography
+:::
+::::::
+:::::::
+
+::: {#gallery-grid .gallery}
+<!-- Add your images here, referencing the 'gallery' folder -->
+
+<!-- Quarto will handle the grid layout and lightbox linking -->
+![Vanuella Oceania Celebration Concert 2018](vanuella_ocaeania_celebration_concert_2018.jpg){group="miezu"}
+
+![Vanu Respire Pochette](VANU_RESPIRE_POCHETTE.jpg){group="miezu"}
+
+![Optional alt text 1](Photo_Respire.jpg){group="miezu"}
+
+![Vanuella](maxresdefault.jpg){group="miezu"}
+
+![Photo Art](Photo_Art.jpg){group="miezu"}
+
+![Photo Respire](Photo_Respire.jpg){group="miezu"}
+
+![Photo Respire 10](Photo_Respire10.jpg){group="miezu"}
+
+![Photo Respire 2](Photo_Respire2.jpg){group="miezu"}
+
+![Photo Respire 3](Photo_Respire3.jpg){group="miezu"}
+
+![Photo Respire 4](Photo_Respire4.jpg){group="miezu"}
+
+![Photo Respire 5](Photo_Respire5.jpg){group="miezu"}
+
+![Photo Respire 6](Photo_Respire6.jpg){group="miezu"}
+
+![Photo Respire 7](Photo_Respire7.jpg){group="miezu"}
+
+![Photo Respire 8](Photo_Respire8.jpg){group="miezu"}
+
+![Photo Respire 9](Photo_Respire9.jpg){group="miezu"}
+
+![Vanu](vanu.jpg){group="miezu"}
+
+![Vanu 2023](vanu_2023.jpg){group="miezu"}
+
+
+![Vanu Boots](vanu_boots.jpg){group="miezu"}
+
+![Vanu Boots Les Recettes](vanu_boots_les_recettes.jpg){group="miezu"}
+
+![Vanu Concert](vanu_concert.jpg){group="miezu"}
+
+![Vanu Fiji Tour 2014](vanu_Fiji_Tour_2014.jpg){group="miezu"}
+
+![Vanu France TV](vanu_france_tv.jpg){group="miezu"}
+
+![Vanu Historical](Vanu_historical.jpg){group="miezu"}
+
+![Vanu Kava Bar Juillet 2018](vanu_kava_bar14_JUILLET_2018b.png){group="miezu"}
+
+![Vanu Red](vanu_red.jpg){group="miezu"}
+
+![Vanu Soiree Francosonik](vanu_soiree_francosonik.jpg){group="miezu"}
+
+![Vanu 2024](vanu2024.jpg){group="miezu"}
+
+![Vanu 2024 v2](vanu2024v2.jpg){group="miezu"}
+
+![Vanu 2024 v3](vanu2024v3.jpg){group="miezu"}
+
+![Vanuella By Laure Rodrigues](Vanuella_By_Laure_Rodrigues.jpg){group="miezu"}
+
+![Vanuella Concert](vanuella_concert.jpg){group="miezu"}
+
+![Vanuella Emanuel Watt](vanuella_emanuel_watt.jpg){group="miezu"}
+
+![Vanuella Fiji Tour 2014](Vanuella_Fiji_Tour_2014.jpg){group="miezu"}
+
+
+
+<!-- Add more images as needed -->
+:::
+

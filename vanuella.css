@@ -1,4 +1,6 @@
 /* Importing Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* Setting up basic font properties */
@@ -6,6 +8,8 @@ body {
     font-family: 'Roboto', sans-serif; /* Apply Roboto font to the entire body */
     background-color: #060606; /* Cyborg theme background color */
     color: #f8f9fa; /* Light text color for contrast */
+    padding-top: 0.1px;
+    margin-top: -0.1px;
 }
 
 /* Media query for screens smaller than 768px (tablets, small desktops) */
@@ -344,4 +348,170 @@ html[lang="en"] #footer-en {
 .language-select:focus {
     outline: none;
     border-color: white;
+}
+
+/* Variables (Optional but helpful for customization) */
+$cover-title-font: 'Raleway', sans-serif;
+$cover-headline-font: 'Lato', sans-serif;
+$cover-body-font: 'Lato', sans-serif;
+$cover-title-color: rgb(228, 228, 228);
+$cover-headline-color: rgb(255, 255, 255);
+$cover-body-color: rgb(255, 255, 255);
+$grid-padding: 10px; // Mobile padding from source
+$grid-padding-desktop: 35px; // Desktop padding from source
+
+/*--------------------------------------------------------------------------*/
+/* Cover Section Styles                                                     */
+/* Based on source styles for '.cover-border', '.cover-wrapper', etc.       */
+/*--------------------------------------------------------------------------*/
+
+body {
+  // Prevent margin collapse issues with the cover
+  padding-top: 0.1px;
+  margin-top: -0.1px;
+}
+
+.cover-section {
+  // Layout
+  height: 100vh;            // Full viewport height
+  min-height: 600px;         // Prevent content from being too squished on small screens
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;    // Better for stacking content vertically
+  align-items: center;       // Horizontal centering of child elements
+  justify-content: center;    // Vertical centering of child elements
+  text-align: center;
+  
+  // Background
+  background-size: cover;
+  background-position: 39% 64%; // From source HTML style attribute
+  background-repeat: no-repeat;
+  background-attachment: fixed; // Optional: creates parallax effect
+  background-color: #222;       // Fallback color while image loads
+  
+  // Text
+  color: white;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5); // Improves text readability on busy backgrounds
+  
+  // Effects
+  overflow: hidden;            // Prevent scrollbars caused by the cover itself
+  
+  // Optional overlay (uncomment to use)
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%);
+    z-index: 1;
+  }
+  
+  // Content container (to position above overlay)
+  &__content {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    padding: 20px;
+    width: 90%;
+  }
+}
+
+.cover-content {
+  z-index: 2; // Ensure content is above overlay
+  padding: 20px;
+  max-width: 800px; // Prevent text from becoming too wide
+}
+
+.cover-title {
+  font-family: $cover-title-font;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: $cover-title-color;
+  margin-bottom: 1rem; // Space below the site title
+}
+
+.cover-headline {
+  font-family: $cover-headline-font;
+  font-weight: 400;
+  font-size: 49px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: $cover-headline-color;
+  margin-bottom: 1rem; // Space below the headline
+}
+
+.cover-body {
+  font-family: $cover-body-font;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: $cover-body-color;
+  margin-bottom: 2rem; // Space below the body text
+}
+
+// Responsive font sizes (adjust as needed based on source @media queries)
+@media (max-width: 1200px) {
+  .cover-headline { font-size: 37px; }
+  .cover-body { font-size: 11px; }
+  .cover-title { font-size: 12px; }
+}
+@media (max-width: 900px) {
+  .cover-headline { font-size: 29px; }
+  .cover-body { font-size: 9px; }
+  .cover-title { font-size: 10px; }
+}
+@media (max-width: 480px) {
+  .cover-headline { font-size: 24px; }
+  .cover-body { font-size: 9px; }
+  .cover-title { font-size: 9px; }
+}
+
+
+/*--------------------------------------------------------------------------*/
+/* Gallery Grid Styles                                                      */
+/* Using Quarto's built-in gallery requires less custom CSS here           */
+/*--------------------------------------------------------------------------*/
+
+.quarto-gallery-grid {
+  // Replicate padding from source's .grid-item
+  --grid-item-padding: #{$grid-padding}; // Use SCSS variable
+}
+
+@media (min-width: 900px) {
+  .quarto-gallery-grid {
+    --grid-item-padding: #{$grid-padding-desktop}; // Use SCSS variable
+  }
+}
+
+/* Style gallery items */
+.quarto-grid-item {
+  // Optional: Add transition for hover effects
+  // transition: transform 0.3s ease;
+}
+
+.quarto-grid-item:hover {
+  // Optional: slight zoom on hover
+  // transform: scale(1.03);
+}
+
+/* Ensure images fill their container */
+.quarto-grid-item img {
+  display: block;
+  width: 100%;
+  height: auto; // Maintain aspect ratio
+}
+
+/* Adjust navbar appearance if needed */
+.navbar {
+  // Example: Add a subtle shadow
+  // box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
