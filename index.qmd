@@ -1,51 +1,74 @@
 ---
-title: "Vanuella | The AI Singer"
+title: "Vanuella | Live AI Music on Twitch"
 title-block-banner: true
 page-layout: full
-subtitle: "Discover the musical universe that creates the bridge between music and love through the soul"
-css: vanuella.css  # Make sure your CSS is linked (see earlier instructions)
+subtitle: "Your AI V-Singer is LIVE! Request songs, vibe to unique AI-generated tracks, and join the interactive music stream."
+anchor-sections: false
+css: vanuella.css
 ---
 
 ::: {.intro}
-## All Songs
+## 🎤 Drop In! Vanuella's Live AI Music Stream!
 
-Discover the musical universe that creates the bridge between music and love through the soul:
+Get ready for a unique music experience! Vanuella, your **AI-powered virtual singer**, creates and performs music **live on Twitch**.
+
+✔ **Catch LIVE interactive shows**
+✔ **Request YOUR songs** & influence the vibe
+✔ Hear **one-of-a-kind AI tracks** made on the fly!
+
+<span class="quote">*"Music that evolves with you. Let's vibe!"*</span>
 :::
 
-::: {.social-links}
--   [<img src="images/twitch_wordmark_extruded_purple.png" alt="Twitch" style="width: 30px; height: 30px; object-fit: cover;">](https://www.twitch.tv/vanuellasing)
--   [<img src="images/PATREON_SYMBOL_1_WHITE_RGB.png" alt="Patreon" style="width: 30px; height: 30px; object-fit: cover;">](https://www.patreon.com/vanuella)
-<!-- -   [<img src="images/instagram-logo.png" alt="Instagram" style="width: 30px; height: 30px; object-fit: cover;">](https://instagram.com/vanuella) -->
--   [<img src="images/twitter-x.png" alt="Twitter" style="width: 30px; height: 30px; object-fit: cover;">](https://x.com/VanuellaSing)
--   [<img src="images/youtube_social_icon_red.png" alt="YouTube" style="width: 30px; height: 30px; object-fit: cover;">](https://www.youtube.com/@VanuellaSing)
--   [<img src="images/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify" style="width: 30px; height: 30px; object-fit: cover;">](https://open.spotify.com/user/317cyazoe4pexq7cad4b72jfkery?si=318385dd8f714714)
-<!-- -   [<img src="images/apple-music-logo.png" alt="Apple Music" style="width: 30px; height: 30px; object-fit: cover;">](https://music.apple.com/us/artist/vanuella/your_apple_music_id) -->
-<!-- -   [<img src="images/amazon-music-logo.png" alt="Amazon" style="width: 30px; height: 30px; object-fit: cover;">](https://music.amazon.com/artists/your_amazon_music_id/vanuella) -->
-<!-- -   [<img src="images/bandcamp-logo.png" alt="Bandcamp" style="width: 30px; height: 30px; object-fit: cover;">](https://vanuella.bandcamp.com) -->
+::: {.action-links}
+::: {.grid}
+::: {.g-col-12 .g-col-md-4 .action-group}
+### 🎧 Listen Anytime
+::: {.secondary-links}
+[<img src="images/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify"> Listen on Spotify](https://open.spotify.com/user/317cyazoe4pexq7cad4b72jfkery?si=318385dd8f714714) <br>
+[<img src="images/youtube_social_icon_red.png" alt="YouTube"> Watch on YouTube](https://www.youtube.com/@VanuellaSing)
 :::
+*Explore released AI-generated tracks.*
+:::
+
+::: {.g-col-12 .g-col-md-4 .action-group}
+### 🔥 Watch Live!
+::: {.primary-action}
+[<img src="images/twitch_wordmark_extruded_purple.png" alt="Twitch Icon"> Watch on Twitch NOW!](https://www.twitch.tv/vanuellasing)
+:::
+*Follow to get notified & join the fun!*
+:::
+
+::: {.g-col-12 .g-col-md-4 .action-group}
+### ✨ Join the Community
+::: {.secondary-links}
+[<img src="images/PATREON_SYMBOL_1_WHITE_RGB.png" alt="Patreon"> Support on Patreon](https://www.patreon.com/vanuella) <br>
+[<img src="images/twitter-x.png" alt="Twitter"> Follow on X (Twitter)](https://x.com/VanuellaSing)
+:::
+*Get perks, updates & behind-the-scenes.*
+:::
+:::
+:::
+
+---
+
+::: {.releases-section}
+### 🎵 Fresh AI Tracks
 
 ::: {.grid}
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-[Dreamwalker](dreamwalker.qmd)
+::: {.g-col-12 .g-col-md-6}
+**Respire**
+*Ethereal synthwave vibes.*
+[Listen Now](songs/respire.qmd)
 :::
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-[Midnight Whispers](midnight-whispers.qmd)
+::: {.g-col-12 .g-col-md-6}
+**Parfum Dans L'air**
+*Chill lo-fi beats for late nights.*
+[Listen Now](songs/ton_parfum_dans_lair.qmd)
+:::
 :::
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-[Celestial Dance](celestial-dance.qmd)
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-[Ocean of Stars](ocean-of-stars.qmd)
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-[Purple Haze](purple-haze.qmd)
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-[Ethereal Journey](ethereal-journey.qmd)
-:::
+<div class="twitch-cta">
+*Hear new songs created live every week!* <br> **[Follow Vanuella on Twitch](https://www.twitch.tv/vanuellasing)** *to catch the next stream & request your own!*
+</div>
 :::
