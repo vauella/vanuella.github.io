@@ -30,6 +30,8 @@ website:
         href: media/index.qmd
       - text: "Gallery"
         href: gallery/index.qmd
+      - icon: mic
+        href: events/about.qmd
       - icon: github
         href: https://github.com/vanuella
       - icon: twitter

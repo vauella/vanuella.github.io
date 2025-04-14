@@ -771,3 +771,231 @@ hr {
 a img {
     vertical-align: middle; /* Better alignment with text */
 }
+
+
+/* Timeline Styles based on YouTube Example */
+/* Import Google Fonts if needed */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Reset and Body */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Match video font */
+}
+
+body {
+    background: #2e364a; /* Dark background from video */
+}
+
+/* Timeline Wrapper */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 20px; /* Add some padding */
+}
+
+/* The Vertical Line */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 0; /* Start height at 0 for animation */
+    background: #fff;
+    top: 0;
+    left: 50%;
+    margin-left: -3px; /* Center the 6px line */
+    z-index: 1; /* Ensure line is visible */
+    animation: moveline 6s linear forwards; /* Animation from video */
+}
+
+@keyframes moveline {
+    0% { height: 0; }
+    100% { height: 100%; }
+}
+
+/* Container Base */
+.container {
+    padding: 10px 0px; /* Adjusted padding */
+    position: relative;
+    width: 100%; /* Let flexbox handle width distribution */
+    opacity: 0; /* Hidden initially for animation */
+    animation: movedown 1s linear forwards; /* Animation from video */
+    display: flex; /* Use flex for alignment */
+    margin-bottom: 30px; /* Space between items */
+}
+
+/* Keyframes for Container Animation */
+@keyframes movedown {
+    0% {
+        opacity: 0; /* Start hidden */
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* Left and Right Container Alignment */
+.left-container {
+    justify-content: flex-start; /* Align content to the start */
+    padding-right: calc(50% + 30px); /* Push text box away from center line */
+}
+
+.right-container {
+    justify-content: flex-end; /* Align content to the end */
+    padding-left: calc(50% + 30px); /* Push text box away from center line */
+}
+
+/* Image/Logo Styling */
+.timeline-img { /* Use a specific class for timeline images */
+    position: absolute;
+    width: 50px; /* Smaller logo */
+    height: 50px;
+    border-radius: 50%;
+    background: #fff; /* Background for the circle */
+    padding: 5px; /* Padding around the logo */
+    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    top: 32px; /* Adjust vertical position */
+    z-index: 10; /* Above the line */
+    object-fit: contain; /* Ensure logo fits */
+}
+
+.left-container .timeline-img {
+    left: 50%;
+    margin-left: -25px; /* Center logo on the line */
+}
+
+.right-container .timeline-img {
+    left: 50%;
+    margin-left: -25px; /* Center logo on the line */
+}
+
+/* Text Box Styling */
+.text-box {
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 100%; /* Take full width within the padded container */
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.text-box h2 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text-box small {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #666;
+}
+.text-box p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #555;
+}
+.text-box ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px; /* Indent list */
+}
+.text-box li {
+    margin-bottom: 5px;
+}
+
+/* Arrow Styling (using pseudo-elements on text-box) */
+.left-container .text-box::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 28px; /* Match video */
+    right: -15px; /* Position outside the box */
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff; /* Pointing right */
+}
+
+.right-container .text-box::before { /* Use ::before for right */
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 28px; /* Match video */
+    left: -15px; /* Position outside the box */
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff; /* Pointing left */
+}
+
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) { /* Adjust breakpoint if needed */
+    .timeline::after {
+        left: 31px; /* Move line to the left */
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 80px; /* Space for line and icon */
+        padding-right: 25px;
+        justify-content: flex-start; /* All items align left */
+    }
+    /* Remove specific padding for left/right */
+    .left-container,
+    .right-container {
+        padding-left: 80px;
+        padding-right: 25px;
+        justify-content: flex-start;
+    }
+
+    .timeline-img {
+        left: 6px; /* Position icon relative to the left edge */
+        margin-left: 0; /* Reset margin */
+    }
+     /* Position both arrows to point left */
+     .left-container .text-box::after,
+     .right-container .text-box::before {
+        left: -15px;
+        right: auto; /* Reset right positioning */
+        border-left: 0; /* Remove left border */
+        border-right: 15px solid #fff; /* Add right border (points left) */
+     }
+     /* Hide the pseudo element not needed */
+     .left-container .text-box::before,
+     .right-container .text-box::after {
+         display: none;
+     }
+
+    .text-box {
+        font-size: 14px;
+    }
+    .text-box small {
+        margin-bottom: 10px;
+    }
+}
+
+.lyrics {
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-left: 4px solid #8d4f9e;
+  margin: 1rem 0;
+}
+
+.song-listing h2 {
+  color: #6f42c1;
+  margin-top: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}

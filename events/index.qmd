@@ -1,25 +1,430 @@
 ---
 title: "Events"
+description: "A collection of press mentions, articles, and media appearances featuring Vanuella Watt."
 page-layout: full
-title-block-banner: true
+title-block-banner: false
+toc: true
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-# Events
+## "Oceania: A Hymn for the Pacific" (2015)
 
-this are events
+Mentions and features for the collaborative song "Oceania":
 
-## Featured Events
+-   **Island Time:** [Official Video of Oceania a hymn for the
+    Pacific](https://islandculturearchivalsupport.wordpress.com/2015/06/03/official-video-of-oceania-a-hymn-for-the-pacific/)
+-   **NC Press:** [Sortie de Oceania a Hymn for the Pacific par Vanuella
+    Watt et Igelese
+    Ete](http://www.ncpresse.nc/Sortie-de-Oceania-a-Hymn-for-the-Pacific-par-Vanuella-Watt-et-Igelese-Ete_a3334.html)
+-   **Tahiti News:** [Nouveau : le clip de Oceania l’hymne du
+    Pacifique](http://www.tahitinews.co/nouveau-le-clip-de-oceania-lhymne-du-pacifique/)
+-   **TNTV:** [Un hymne pour le
+    Pacifique](http://www.tntv.pf/Un-hymne-pour-le-Pacifique_a4103.html)
+-   **New Caledonia Weekly:** [“Oceania: a hymn for the Pacific”
+    (PDF)](../pdfs/OCEANIA-in-NC-WEEKLY.pdf) <!-- Adjusted path -->
+-   **Radio 1 (PF):**
+    -   [Oceania un hymne pour le
+        Pacifique](http://www.radio1.pf/oceania-un-hymne-pour-le-pacifique/)
+    -   [Pacifique News
+        Category](http://www.radio1.pf/category/actus/pacifique/)
+-   **Mangrove.nc:** [Oceania All Stars - Oceania a hymn for the
+    Pacific](http://www.mangrove.nc/index.php/albums/nouvelle-caledonie/386/oceania-all-stars-oceania-a-hymn-for-the-pacific)
+-   **Tiare FM:** [Video Gallery - Oceania All Stars - A Hymn for the
+    Pacific](http://www.tiarefm.pf/videogallery/oceania-all-stars-a-hymn-for-the-pacific/)
 
-::: {.grid}
+### Press Release (French & English)
 
-::: {.g-col-4}
-### Events Fundamentals
-Learn the basics of Events.
-[Learn More](/events/latest.qmd){.btn .btn-primary}
+::::: grid
+::: g-col-md-6
+**Français** 🇫🇷 \> « Oceania » c’est : « **1 Océan, 1 peuple ». Tel est
+l’esprit\
+de la chanson.**
+
+Cet Hymne pour le Pacifique, chanté en plusieurs langues et par
+plusieurs chanteurs\
+de la région Pacifique, représente toutes les facettes de l’Océanie : la
+Mélanésie, la Polynésie et la\
+Micronésie.
+
+Comme une vague qui viendrait caresser chaque plage des îles du
+Pacifique,\
+« Oceania » permettra aux enfants de la région d’être unis par la\
+richesse de leurs cultures et leurs valeurs.
+
+Cet Océan qui nous sépare, nous lie aussi par sa force et ses mystères.
+Je souhaite que\
+ce titre soit une source d’inspiration pour les jeunes océaniens, afin
+qu’ils\
+puissent trouver leur chemin, entre tradition et modernité, et qu’il
+soit une\
+source de partage avec le reste du monde.
+
+**REMERCIEMENTS :**
+
+Je voudrais remercier Mr Igelese Ete de m’avoir assistée tout au long de
+la réalisation de ce projet,\
+ainsi que le collectif de chanteurs « Oceania all stars ». Ils y ont\
+mis un petit bout de leur âme et laissé l’empreinte de leur identité,
+pour que\
+chacun de nous puisse voyager dans le Pacifique le temps d’une chanson.
+
+Je tiens aussi à remercier tous ceux qui, de près comme de loin, nous
+ont aidés à mener ce projet jusqu’à terme. Grâce à\
+votre aide, « Oceania » inondera le Pacifique.
+
+Enfin, je voudrais remercier le public qui fera voyager « Oceania »
+jusqu’au 4 coins du monde !
+
+Musicalement vôtre, Vanuella Watt
 :::
 
+::: g-col-md-6
+**English** 🇬🇧 / 🇦🇺 / 🇳🇿 \> “Oceania” is: «1 Ocean, 1 people “. Such is
+the spirit of\
+the song.
 
+This Hymn for the Pacific, sung in several languages and by several
+singers of\
+the Pacific region, represents all the facets of Oceania: Melanesia,
+Polynesia\
+and Micronesia.
+
+As a wave which would come to caress every Pacific Island beaches,\
+“Oceania” will allow the children of the region to be united by the\
+wealth of their cultures and their values.
+
+This Ocean which separates us, also binds us by its strength and its
+mysteries.\
+I wish this song could be a source of inspiration for the oceanian
+young\
+people, so that they could find their way, between tradition and
+modernity, and\
+a source of sharing with the rest of the world.
+
+THANKS:
+
+I would like to thank Mr Igelese Ete who has assisted me throug the\
+realization of this project, as well as the collective of singers ”\
+Oceania all stars “. They gave a small part of their soul and left the\
+imprint of their identity, so that each of us can travel in the Pacific,
+the\
+time of a song.
+
+I also want to thank all of those who, closely as by far, helped us to\
+lead this project until term. Thanks to your help, “Oceania” will\
+flood the Pacific.
+
+Finally, I would like to thank the public who will make “Oceania”\
+travel all over of the world.
+
+Musically yours, Vanuella Watt
 :::
+:::::
 
-[Browse All Events](/events/latest.qmd){.btn .btn-secondary}
+------------------------------------------------------------------------
 
+## Performances & Tours
+
+### Opening for Nolwenn Leroy (Nouméa, May 23, 2015)
+
+-   **NC Presse:** [Vanuella Watt en première partie du concert de
+    Nolwenn
+    Leroy](http://www.ncpresse.nc/Vanuella-Watt-en-premiere-partie-du-concert-de-Nolwenn-Leroy-_a4110.html)
+-   **Twitter (Nolwenn Source):** <https://twitter.com/nolwennsource>
+-   [See Event Details in Archive](/events/archive.qmd#2015)
+    <!-- Added Link -->
+
+![Vanuella Watt opening for Nolwenn
+Leroy](../images/media/nolwenn-opening.jpg){#fig-nolwenn
+fig-alt="Poster announcing Vanuella Watt opening for Nolwenn Leroy."}
+<!-- Update path/filename/alt text -->
+
+------------------------------------------------------------------------
+
+### Fête de la Musique & NZ Tour (June 2014)
+
+-   **Headline Act:** [Vanuella Watt en tête d’affiche de la Fête de la
+    musique (AmbaFrance
+    NZ)](https://web.archive.org/web/20190320080450/http://www.ambafrance-nz.org/Vanuella-Watt-en-tete-d-affiche-de)
+    <!-- Archived Link -->
+-   **Radio New Zealand:** [Interview/Feature (Audio
+    OGG)](http://podcast.radionz.co.nz/upbt/upbt-20140619-1235-yves_lafoy_and_nathalie_buckrell_la_fete_de_la_musique-00.ogg)
+-   **NZ Tour Press Release (PDF):** [NZ TOUR PRESS RELEASE
+    V-Watt](../pdfs/NZ-TOUR-PRESS-RELEASE-V-Watt.pdf)
+    <!-- Adjusted path -->
+-   **Other Links:** *(List as before)*
+-   [See Event Details in Archive](/events/archive.qmd#2014)
+    <!-- Added Link -->
+
+![Vanuella during NZ Tour](/gallery/nz-tour-2014.jpg){#fig-nztour
+fig-alt="Photo of Vanuella Watt related to the 2014 New Zealand tour."}
+<!-- Update path/filename/alt text -->
+
+------------------------------------------------------------------------
+
+### Francosonik 2014 - Vanuatu (March 2014)
+
+-   **Alliance Française Vanuatu:** [Francosonik 2014 avec Vanuella et
+    Gator
+    Queen](http://www.alliancefr.vu/fr/culture/329-francosonik-2014-avec-vanuella-et-gator-queen)
+-   [See Event Details in Archive](/events/archive.qmd#2014)
+    <!-- Added Link -->
+
+------------------------------------------------------------------------
+
+### Collaboration with James Carter (Nouméa, Oct 2011)
+
+-   **Standing Ovation:** A memorable performance with world-renowned
+    jazz saxophonist James Carter.
+-   **New Caledonia Weekly Article (PDF):** [STANDING OVATION: WITH
+    JAMES CARTER AND VANUELLA WATT!](../pdfs/STANDING-OVATION1.pdf)
+    <!-- Adjusted path -->
+-   **YouTube Clip Mention:** `youtube.com/watch?v=EPCn7DSYgDc` (Link
+    seems broken in source, search might find it)
+-   [See Event Details in Archive](/events/archive.qmd#2011)
+    <!-- Added Link -->
+
+![Vanuella Watt performing with James
+Carter](/gallery/james-carter-collab.jpg){#fig-carter
+fig-alt="Photo of Vanuella Watt and James Carter performing on stage."}
+
+<!-- Update path/filename/alt text -->
+
+> James Carter et Vanuella Watt se sont rencontrés sur scène... *(Full
+> quote as before)*
+
+------------------------------------------------------------------------
+
+### Australia Tours & Appearances (2013)
+
+**Sydney (April 10, 2013 - Alliance Française)** \* *(Links as before)*
+\* [See Event Details in Archive](/events/archive.qmd#2013)
+<!-- Added Link -->
+
+![Vanuella performing in
+Sydney](../images/media/sydney-af-2013.jpg){#fig-sydneyaf
+fig-alt="Photo montage from Vanuella's 2013 performance at Alliance Française Sydney."}
+<!-- Update path/filename/alt text -->
+
+> **Vanuella, La Diva du Pacifique (Bio Snippet for Sydney 2013)**
+> *(Text as before)*
+
+**Canberra (April 6-7, 2013 - Vive La France & Canberra 100)** \*
+*(Links as before)* \* [See Event Details in
+Archive](/events/archive.qmd#2013) <!-- Added Link -->
+
+![Vanuella performing in
+Canberra](../images/media/canberra-100.jpg){#fig-canberra100
+fig-alt="Promotional image for Vanuella Watt's performance at Canberra 100 celebrations."}
+<!-- Update path/filename/alt text -->
+
+------------------------------------------------------------------------
+
+### Sydney Wedding Performance (Sept 14, 2012 - St Mary Cathedral)
+
+> **EMOTION at the St Mary Cathedral in SYDNEY!** *(Text as before)* \*
+> [See Event Details in Archive](/events/archive.qmd#2012)
+> <!-- Added Link -->
+
+![St Mary Cathedral,
+Sydney](../images/media/st-mary-cathedral.jpg){#fig-stmary
+fig-alt="Photo related to Vanuella's performance at St Mary Cathedral, possibly the venue."}
+<!-- Update path/filename/alt text -->
+
+------------------------------------------------------------------------
+
+### Fiji Tour (June 2012 - with Tom Mawi)
+
+-   *(Links as before)*
+-   **New Caledonia Weekly Article (PDF):** [Vanuella in
+    Fiji](../pdfs/Vanuella-FIJI.pdf) <!-- Adjusted path -->
+-   [See Event Details in Archive](/events/archive.qmd#2012)
+    <!-- Added Link -->
+
+![Vanuella and Tom Mawi in
+Fiji](../images/media/fiji-tour-2012.jpg){#fig-fiji
+fig-alt="Press clipping about Vanuella Watt and Tom Mawi's tour in Fiji, 2012."}
+<!-- Update path/filename/alt text -->
+
+------------------------------------------------------------------------
+
+### Vanuatu Tour & Appearances (2012)
+
+**Nuit Blanche Port-Vila (Sept 7, 2012 - Alliance Française 20th
+Anniversary)** \* *(Links/Details as before)* \* **Femme Mag Article
+(PDF, Aug 2012):** [Vanuella Watt en Tournée au
+Vanuatu](../pdfs/scan-Vanuella-watt.pdf) <!-- Adjusted path --> \* [See
+Event Details in Archive](/events/archive.qmd#2012) <!-- Added Link -->
+
+![Vanuella in
+Vanuatu](../images/media/vanuatu-nuit-blanche.jpg){#fig-vanuatunb
+fig-alt="Promotional image or photo from Vanuella's Nuit Blanche performance in Vanuatu, 2012."}
+<!-- Update path/filename/alt text -->
+
+![Vanuella & Tom Mawi with sculpture by Emmanuel
+Watt](../images/media/vanuatu-sculpture.jpg){#fig-vanuatusculpture
+fig-alt="Vanuella Watt and Tom Mawi posing with a sculpture by Emmanuel Watt in Vanuatu."}
+<!-- Update path/filename/alt text -->
+
+> **VANUELLA WATT : GROS SUCCES AU VANUATU!** *(Text as before)*
+
+------------------------------------------------------------------------
+
+### Local Performances & Events (New Caledonia: 2011-2013)
+
+-   **NC Presse (Sept 2013):** [Vanuella Watt en
+    concert](http://www.ncpresse.nc/Vanuella-Watt-en-concert_a584.html)
+-   **Post.nc (July 2013):** [Vanuella Watt, « la Diva du Pacifique
+    »](http://www.post.nc/vanuella-watt-la-diva-du-pacifique/)
+    (Interview)
+-   **Le Gratuit (May 16, 2013):** Article mention.
+
+![Article Scans from Le Gratuit, May
+2013](../images/media/le-gratuit-may2013.jpg){#fig-legratuit
+fig-alt="Scans of articles/ads featuring Vanuella Watt from Le Gratuit newspaper, May 2013."}
+<!-- Update path/filename/alt text -->
+
+-   **Semaine de la Francophonie (March 19, 2013):** Performance.
+
+![Article Scan from LNC, March
+2013](../images/media/lnc-francophonie-mar2013.jpg){#fig-lncfranco
+fig-alt="Scan of Les Nouvelles Calédoniennes article about the Semaine de la Francophonie event featuring Vanuella Watt."}
+<!-- Update path/filename/alt text -->
+
+-   **Coco TV (March 22, 2013):** Article mention.
+
+![Article Scan from Coco TV, March
+2013](../images/media/coco-tv-mar2013.jpg){#fig-cocotv
+fig-alt="Scans from Coco TV magazine featuring Vanuella Watt, March 2013."}
+<!-- Update path/filename/alt text -->
+
+-   **The Local (March 21, 2013):** Article mention.
+
+![Article Scan from The Local, March
+2013](../images/media/the-local-mar2013.jpg){#fig-thelocal
+fig-alt="Scan from The Local newspaper featuring Vanuella Watt, March 2013."}
+<!-- Update path/filename/alt text -->
+
+-   **CPS Solidarity Event (Oct 26, 2012):** Performance.
+
+![Vanuella at CPS Solidarity
+Event](../images/media/cps-solidarite-2012.jpg){#fig-cps
+fig-alt="Photo of Vanuella Watt associated with the CPS Solidarity Event performance."}
+<!-- Update path/filename/alt text -->
+
+-   **Opening for Magic System (July 30, 2011):** Performance.
+-   **Pacific Games (Aug/Sept 2011):** Performance.
+    -   **YouTube Link:** <http://www.youtube.com/watch?v=YhwQKYgrXcs>
+        ![Vanuella at the Pacific Games
+        2011](../images/media/pacific-games-2011.jpg){#fig-pacgames
+        fig-alt="Photos of Vanuella Watt performing at the 2011 Pacific Games in Nouméa."}
+        <!-- Update path/filename/alt text -->
+-   **Foire de Bourail (Aug 14, 2011 & Aug 11, 2012):** Performances.
+-   *(Many other hotel/venue performances listed in archive)*
+-   [See Event Details in Archive](/events/archive.qmd)
+    <!-- General Link -->
+
+------------------------------------------------------------------------
+
+## Magazine Features & Interviews
+
+-   **Femmes Magazine (May 2013):** Feature article.
+
+![Article Scan from Femmes Mag (May
+2013)](../images/media/femmes-mag-may2013.jpg){#fig-femmesmay13
+fig-alt="Scans of Vanuella Watt feature from Femmes Magazine, May 2013."}
+<!-- Update path/filename/alt text -->
+
+-   **Compact News (April 2013):** Article mention.
+
+![Article Scan from Compact News (April
+2013)](../images/media/compact-news-apr2013.jpg){#fig-compactapr13
+fig-alt="Scan of Vanuella Watt article from Compact News, April 2013."}
+<!-- Update path/filename/alt text -->
+
+-   **Sortir Magazine (Undated, circa 2012):** Biography feature.
+
+![Bio Scan from Sortir
+Magazine](../images/media/sortir-mag-bio.jpg){#fig-sortirbio
+fig-alt="Scan of biography feature on Vanuella Watt from Sortir Magazine."}
+<!-- Update path/filename/alt text --> \> **VANUELLA**
+
+**WATT par le Magazine “SORTIR” :** *(Quote as before)*
+
+-   **Femmes Magazine (June 2012):** Fête de la Musique Feature.
+    -   [Link to PDF Scan](../pdfs/Vanuella-FETE-de-a-MUSIQUE.pdf)
+        <!-- Adjusted path -->
+-   **Marions-nous Magazine (Undated):** Feature on wedding
+    performances.
+    -   [Link to PDF Scan](../pdfs/MP-Vanuella-Watt1.pdf)
+        <!-- Adjusted path --> \> Soleil, soleil, Revoir mes îles…
+        *(Quote as before)*
+-   **Femmes Magazine (July 2011):** "Une fille au coeur grenadine".
+    -   [LNC Link (Potentially
+        broken)](http://www.lnc.nc/article/femmes/une-fille-au-coeur-grenadine)
+-   **New Caledonia Weekly (Oct 21 - Nov 3, 2011):** "My Life, My
+    Music..." Feature. \> **MY LIFE, MY MUSIC…** *(Quote as before)*
+-   **New Caledonia Weekly (July 15 - Aug 4, 2011):** "Siren of Island
+    Song" Feature. \> **SIREN OF ISLAND SONG** *(Quote as before)*
+
+------------------------------------------------------------------------
+
+## "La Diva du Pacifique"
+
+*(Details and links as before)*
+
+-   **Ave Maria Performances:** Vanuella is known for her rendition of
+    Gounod's "Ave Maria," frequently requested for weddings.
+
+![Vanuella, known for Ave
+Maria](../images/media/diva-ave-maria.jpg){#fig-avemaria
+fig-alt="Image associated with Vanuella Watt's title 'La Diva du Pacifique' and her Ave Maria performances."}
+<!-- Update path/filename/alt text -->
+
+------------------------------------------------------------------------
+
+## Song Releases & Mentions
+
+-   **"Real Princess" (with Mada Voice Jizzy - Feb 2013 Release)**
+    -   *(Details as before)*
+
+![Coco TV Article Scan & Mada Voice
+Jizzy](../images/media/real-princess-promo.jpg){#fig-realprincess
+fig-alt="Scan from Coco TV announcing the 'Real Princess' single with Mada Voice Jizzy."}
+<!-- Update path/filename/alt text -->
+
+-   **"Somewhere Around The World" (2012)**
+    -   **Listen:**
+        `<audio controls src="../audio/Somewhere-Around-The-World.mp3"></audio>`
+        <!-- Adjusted path -->
+
+![Artwork for Somewhere Around The
+World](../images/media/somewhere-around-world.jpg){#fig-somewhere
+fig-alt="Cover art or promotional image for Vanuella Watt's song 'Somewhere Around The World'."}
+<!-- Update path/filename/alt text --> \>
+
+*“I dedicate this song to the people of Vanuatu, my touch of
+paradise“* - ©Vanuella Watt 2012
+
+-   **"Unblock Yourself to Me" (2012)**
+    -   *(Details as before)*
+
+![Artwork/Promo for Unblock Yourself to
+Me](../images/media/unblock-yourself.jpg){#fig-unblock
+fig-alt="Artwork or photo related to the song 'Unblock Yourself to Me'."}
+<!-- Update path/filename/alt text -->
+
+![Stéphane
+Fernandez](../images/media/stephane-fernandez.jpg){#fig-fernandez
+fig-alt="Photo of guitarist Stéphane Fernandez who arranged 'Unblock Yourself to Me'."}
+<!-- Update path/filename/alt text -->
+
+-   **"Les recettes de l’amour fou" (2012)** *(Details as before)*
+
+-   **"Coeur grenadine" (Cover - 2011)** *(Details as before)*
+
+-   **"Soleil, soleil"** *(Details as before)*
+
+-   **"Revoir mes îles"** *(Details as before)*

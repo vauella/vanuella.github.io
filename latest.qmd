@@ -1,8 +1,0 @@
----
-title: "Latest Events"
-subtitle: "Dive into the last Events!"
-page-layout: article
-title-block-banner: true
----
-
-# Latest Events
