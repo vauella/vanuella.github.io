@@ -6,8 +6,25 @@ title-block-banner: true
 
 # Videos
 
-::: column-screen
-<iframe width="560" height="315" src="https://www.youtube.com/embed/59LXID6Cos8?si=4InlrZ_8Yxw2fKFF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+::: {layout-ncol=3}
 
-</iframe>
+::: {#Respire1 .video-item}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/59LXID6Cos8?si=4InlrZ_8Yxw2fKFF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+
+:::
+
+::: {#oceania_hymn .video-item}
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cHpqMQN3uIw?si=XKsWL-jMPtB3MytN" title="OCEANIA A HYMN FOR THE PACIFIC (Official Video Clip)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::
+
+::: {#Respire3 .video-item}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/59LXID6Cos8?si=4InlrZ_8Yxw2fKFF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+
+:::
+
 :::

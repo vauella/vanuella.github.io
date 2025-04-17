@@ -1,71 +1,145 @@
 ---
 title: "Songs"
-description: "Lyrics from Vanuella Watt's musical creations"
-image: images/vanuella-performing.jpg
+subtitle: "Lyrics from Vanuella Watt's musical creations"
+image: gallery/vanu-singing.jpg
 ---
 
 # Soulful Melodies from the Pacific
 
 Discover the poetic lyrics of Vanuella Watt's original compositions that blend passion, culture, and emotion.
 
-::: {.song-listing}
+::: {.grid}
+::: {.g-col-md-4}
+::: {.card .h-100}
+![Oceania Cover](/gallery/vanu-oceania.jpg){.card-img-top}
 
-## Unblock Yourself to Me
-*(© Vanuella Watt 2012)*
+<div class="card-body">
+## [Oceania](oceania.qmd)
+*(Pacific Anthem • 2023)*
 
-::: {.lyrics}
-That you love me,  
-That you need me,  
-That you miss me,  
-Oh my love,  
-Take a while,  
-Think of me…  
+<div class="lyrics-excerpt">
+"A wave caressing every Pacific Island beach...  
+United by the wealth of our cultures and values"
+</div>
 
-**Chorus:**  
-Unblock yourself to me  
-Unblock yourself to me  
-Tell me that you love me forever  
-That we'll find a way to each other  
-Tell me that you'll come back to me, love  
-And I promise I will be there  
-
-I taste the life, without you by my side,  
-I feel the pain, running through my veins  
-But my love, I can't breathe  
-
-Can you see me,  
-Can you feel me,  
-Can you hear me,  
-Oh my love,  
-You must please,  
-Forgive me  
+[Read Full Lyrics →](oceania.qmd)
+</div>
+:::
 :::
 
-## Angel
-*(© Vanuella Watt 2012)*
+::: {.g-col-md-4}
+::: {.card .h-100}
+![Respire Cover](/gallery/song-respire.jpg){.card-img-top}
 
-::: {.lyrics}
-I feel your power invading me  
-I wanna feel these miracles  
-I was frozen now I am so hot  
-I'm losing my sense of control  
+<div class="card-body">
+## [Respire](respire.qmd)
+*(Electro-Soul • 2020)*
 
-**Chorus:**  
-Angel, I am calling your name man  
-I need to feel you now  
-Oh oh oh oh oh oh  
-Angel, I am calling your name man  
-I need to feel you now  
+<div class="lyrics-excerpt">
+"Between concrete and stardust I find my rhythm...  
+A cosmic dance of urban poetry"
+</div>
 
-I need to believe you're real  
-Make myself feel eternity  
-I wish I can breathe you now  
-I wanna feel I am divine  
+[Explore Composition →](respire.qmd)
+</div>
+:::
 :::
 
+::: {.g-col-md-4}
+::: {.card .h-100}
+![Ton Parfum Cover](/gallery/vanu-ton-parfum.jpg){.card-img-top}
+
+<div class="card-body">
+## [Ton Parfum dans l'Air](ton_parfum_dans_lair.qmd) 
+*(Poetic Chanson • 2025)*
+
+<div class="lyrics-excerpt">
+"Tracing initials in the fog...  
+A constellation of whispered memories"
+</div>
+
+[Experience the Poetry →](ton_parfum_dans_lair.qmd)
+</div>
+:::
+:::
 :::
 
-::: {.callout-note}
-## More Music Coming Soon
-Explore [our complete discography](discography.qmd) to discover all of Vanuella's musical creations.
+::: {.grid .mt-4}
+::: {.g-col-md-6}
+::: {.card}
+<div class="card-body">
+## Classic Creations
+
+### [Unblock Yourself to Me](unblock.qmd)
+*(© 2012)*  
+"Tell me that you love me forever...  
+A promise of reunion in melodic harmony"
+
+### [Angel](angel.qmd) 
+*(© 2012)*  
+"Calling your name through divine energy...  
+A spiritual dialogue in song"
+</div>
 :::
+:::
+:::
+
+::: {.callout-note .mt-4}
+## Musical Evolution Timeline
+Explore Vanuella's artistic journey:
+- **2012:** Early pop-soul experiments
+- **2020:** Electro-cultural fusion phase  
+- **2023:** Pan-Pacific collaborations
+- **2025:** Poetic chanson mastery
+
+[View Full Discography →](/media/index.qmd)
+:::
+
+
+<!-- --- -->
+<!-- title: "Songs" -->
+<!-- description: "Lyrics from Vanuella Watt's musical creations" -->
+<!-- image: images/vanuella-performing.jpg -->
+<!-- --- -->
+
+<!-- # Soulful Melodies from the Pacific -->
+
+<!-- Discover the poetic lyrics of Vanuella Watt's original compositions that blend passion, culture, and emotion. -->
+
+<!-- ::: {.song-listing} -->
+
+<!-- ## Unblock Yourself to Me -->
+<!-- *(© Vanuella Watt 2012)* -->
+
+<!-- ::: {.lyrics} -->
+
+<!-- ::: -->
+
+<!-- ## Angel -->
+<!-- *(© Vanuella Watt 2012)* -->
+
+<!-- ::: {.lyrics} -->
+<!-- I feel your power invading me   -->
+<!-- I wanna feel these miracles   -->
+<!-- I was frozen now I am so hot   -->
+<!-- I'm losing my sense of control   -->
+
+<!-- **Chorus:**   -->
+<!-- Angel, I am calling your name man   -->
+<!-- I need to feel you now   -->
+<!-- Oh oh oh oh oh oh   -->
+<!-- Angel, I am calling your name man   -->
+<!-- I need to feel you now   -->
+
+<!-- I need to believe you're real   -->
+<!-- Make myself feel eternity   -->
+<!-- I wish I can breathe you now   -->
+<!-- I wanna feel I am divine   -->
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ::: {.callout-note} -->
+<!-- ## More Music Coming Soon -->
+<!-- Explore [our complete discography](discography.qmd) to discover all of Vanuella's musical creations. -->
+<!-- ::: -->

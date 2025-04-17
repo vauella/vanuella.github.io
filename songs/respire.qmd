@@ -263,3 +263,20 @@ credits$Name <- paste0("**", credits$Name, "**")
 knitr::kable(credits, col.names = c("Role", "Creative Force"), format = "html") |>
   kableExtra::kable_styling(full_width = FALSE)
 ```
+
+*Musicalement vôtre / Musically yours,*  
+Vanuella Watt
+
+```{=html}
+<style>
+.artist-signature {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.5em;
+  color: #6B2737;
+  margin-top: 1em;
+}
+</style>
+
+<div class="artist-signature">Vanuella Watt ✍️</div>
+```
+

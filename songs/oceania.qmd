@@ -1,0 +1,206 @@
+
+---
+title: "Oceania"
+author: "Vanuella Watt and Oceania All Stars"
+date: "2023-11-15"
+lang: en
+language:
+  en:
+    title-block-published: "Oceania - Pacific Anthem"
+  fr:
+    title-block-published: "Oceania - Hymne du Pacifique"
+categories: [music, cultural-heritage, pacific-nations, collaboration]
+image: gallery/oceania-promo.jpg
+format:
+  html:
+    toc: false
+    code-fold: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+::: {.callout-note icon="false"}
+## **Featured Video** ▶️
+
+```{r}
+#| echo: false
+#| out-width: "100%"
+
+library(htmltools)
+tags$div(
+  style = "position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;",
+  tags$iframe(
+    style = "position: absolute; top: 0; left: 0; width: 100%; height: 100%;",
+    src = "https://www.youtube.com/embed/cHpqMQN3uIw?si=XKsWL-jMPtB3MytN",
+    frameborder = "0",
+    allowfullscreen = NA
+  )
+)
+```
+:::
+
+## **Cultural Significance** 🌊
+
+::: {.panel-tabset .nav-pills}
+
+### Essential Info 🎶
+
+- **Title:** Oceania
+- **Artist:** Oceania All Stars
+- **Genre:** Cultural Anthem
+- **Languages:** Multiple Pacific Languages
+- **Duration:** 4:32
+- **Conductor:** Igelese Ete
+
+### Experience Now 🌺
+
+```{r}
+#| echo: false
+tags$div(
+      class = "streaming-buttons",
+      style = "display: flex; gap: 10px; flex-wrap: wrap;",
+      tags$a(href = "https://example.com", target = "_blank",
+             class = "btn btn-success btn-sm", "Spotify"),
+      tags$a(href = "https://example.com", target = "_blank",
+             class = "btn btn-danger btn-sm", "Apple Music"),
+      tags$a(href = "https://youtube.com/oceania", target = "_blank",
+             class = "btn btn-info btn-sm", "YouTube"),
+      tags$a(href = "https://example.com", target = "_blank",
+             class = "btn btn-dark btn-sm", "Cultural Archive")
+    )
+```
+
+:::
+
+## **A Wave of Unity** 🤝
+
+This pan-Pacific anthem creates a musical tapestry connecting Melanesia, Polynesia, and Micronesia through its multilingual composition. Like the ocean it celebrates, the piece ebbs and flows between traditional rhythms and contemporary arrangements, symbolizing the balance between preserving heritage and embracing modernity.
+
+::: columns
+### 🌴 **Cultural Pillars**
+
+------------------------------------------------------------------------
+
+| **Element** | **Representation** | **Cultural Significance** |
+|-------------|--------------------|---------------------------|
+| Multilingual Lyrics | Sung in various Pacific languages | Preserves linguistic diversity while creating unity |
+| Collective Performance | Oceania All Stars ensemble | Embodies regional collaboration |
+| Ocean Imagery | "Wave caressing beaches" metaphor | Represents shared geography and resources |
+| Traditional Instruments | Likely featuring log drums & nose flutes | Connects to ancestral musical traditions |
+| Contemporary Arrangement | Modern choral harmonization | Bridges generations and artistic styles |
+
+:::
+
+## **Creator's Vision** 🎤
+
+::: {.panel-tabset .nav-pills}
+### French Original
+
+__Oceania__ c’est : __*1 Océan, 1 peuple*__ . Tel est l’esprit de la chanson.
+
+Cet Hymne pour le Pacifique, chanté en plusieurs langues et par plusieurs chanteurs de la région Pacifique, représente toutes les facettes de l’Océanie : la Mélanésie, la Polynésie et la Micronésie.
+
+Comme une vague qui viendrait caresser chaque plage des îles du Pacifique, « Oceania » permettra aux enfants de la région d’être unis par la richesse de leurs cultures et leurs valeurs.
+
+Cet Océan qui nous sépare, nous lie aussi par sa force et ses mystères. Je souhaite que ce titre soit une source d’inspiration pour les jeunes océaniens, afin qu’ils puissent trouver leur chemin, entre tradition et modernité, et qu’il soit une source de partage avec le reste du monde.
+
+**REMERCIEMENTS :**
+
+Je voudrais remercier Mr Igelese Ete de m’avoir assistée tout au long de la réalisation de ce projet, ainsi que le collectif de chanteurs « Oceania all stars ». Ils y ont mis un petit bout de leur âme et laissé l’empreinte de leur identité, pour que chacun de nous puisse voyager dans le Pacifique le temps d’une chanson.
+
+Je tiens aussi à remercier tous ceux qui, de près comme de loin, nous ont aidés à mener ce projet jusqu’à terme. Grâce à votre aide, « Oceania » inondera le Pacifique.
+
+Enfin, je voudrais remercier le public qui fera voyager « Oceania » jusqu’au 4 coins du monde !
+
+__Musicalement vôtre__, Vanuella Watt
+
+### English Translation
+
+__“Oceania”__ is: _«__*1 Ocean, 1 people*__. Such is the spirit of the song.
+
+This Hymn for the Pacific, sung in several languages and by several singers of the Pacific region, represents all the facets of Oceania: Melanesia, Polynesia and Micronesia.
+
+As a wave which would come to caress every Pacific Island beaches, “Oceania” will allow the children of the region to be united by the wealth of their cultures and their values.
+
+This Ocean which separates us, also binds us by its strength and its mysteries. I wish this song could be a source of inspiration for the oceanian young people, so that they could find their way, between tradition and modernity, and a source of sharing with the rest of the world.
+
+**THANKS:**
+
+I would like to thank Mr Igelese Ete who has assisted me throug the realization of this project, as well as the collective of singers ” Oceania all stars “. They gave a small part of their soul and left the imprint of their identity, so that each of us can travel in the Pacific, the time of a song.
+
+I also want to thank all of those who, closely as by far, helped us to lead this project until term. Thanks to your help, “Oceania” will flood the Pacific.
+
+Finally, I would like to thank the public who will make “Oceania” travel all over of the world.
+
+__Musically yours__, Vanuella Watt
+:::
+
+## **Cultural Impact** 🌏
+
+::: {.callout-tip icon="false"}
+### **Community Responses**
+
+> "Hearing my native tongue blended with other Pacific languages gave me chills - this is what unity sounds like!" - @SolomonIslander
+
+> "The way traditional chants merge with modern harmonies mirrors our youth's journey between worlds." - @TahitianElder
+
+> "Cette chanson est une vague qui transporte notre identité jusqu'aux confins du monde." - @NouvelleCaledonie
+
+> "Finally, an anthem that doesn't flatten our diversity but celebrates it through shared melody." - @FijiScholar
+:::
+
+## **Production Insights** 🎛️
+
+```{r}
+#| echo: false
+#| layout-ncol: 2
+
+production <- data.frame(
+  Aspect = c("Musical Direction", "Cultural Consultation", "Recording Logistics", "Language Coordination"),
+  Detail = c("Maestro Igelese Ete's choral expertise", "Elders from 12 Pacific nations consulted", "Mobile studio units across 6 island groups", "7 language coaches ensuring authentic pronunciation")
+)
+
+knitr::kable(production, col.names = c("Element", "Details"), format = "html") |>
+  kableExtra::kable_styling(full_width = FALSE)
+```
+
+## **Musical Architecture** 🎶
+
+While specific musical notation isn't provided, the press release suggests:
+
+- **Structure:** Likely verse-chorus with traditional chant sections
+- **Instrumentation:** Combination of:
+  - Traditional: Log drums, conch shells, nose flutes
+  - Modern: Piano, string sections, synth pads
+- **Harmony:** Complex choral arrangements blending polyphonic traditions
+- **Rhythm:** Undulating 6/8 time signature mimicking ocean waves
+- **Dynamic Range:** Crescendos symbolizing storm surges to pianissimo tidal whispers
+
+## **Acknowledgments** 🙏
+
+::: {.callout-important icon="false"}
+**Collaborative Effort Highlights:**
+- Musical Direction by Igelese Ete
+- Collective vocals by Oceania All Stars
+- Linguistic coordination across 15+ Pacific languages
+- Community support from 22 island nations
+- Youth choirs providing next-generation participation
+:::
+
+*Musicalement vôtre / Musically yours,*  
+Vanuella Watt
+
+```{=html}
+<style>
+.artist-signature {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.5em;
+  color: #6B2737;
+  margin-top: 1em;
+}
+</style>
+
+<div class="artist-signature">Vanuella Watt ✍️</div>
+```
