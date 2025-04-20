@@ -1,145 +1,272 @@
 ---
 title: "Songs"
 subtitle: "Lyrics from Vanuella Watt's musical creations"
-image: gallery/vanu-singing.jpg
+title-block-banner: true
+page-layout: full
+anchor-sections: false
+css: vanuella.css
 ---
 
-# Soulful Melodies from the Pacific
+::: {.hero .songs-hero}
+::: {.hero-content}
+# Soulful Melodies from the Pacific {.hero-title}
 
-Discover the poetic lyrics of Vanuella Watt's original compositions that blend passion, culture, and emotion.
-
-::: {.grid}
-::: {.g-col-md-4}
-::: {.card .h-100}
-![Oceania Cover](/gallery/vanu-oceania.jpg){.card-img-top}
-
-<div class="card-body">
-## [Oceania](oceania.qmd)
-*(Pacific Anthem • 2023)*
-
-<div class="lyrics-excerpt">
-"A wave caressing every Pacific Island beach...  
-United by the wealth of our cultures and values"
-</div>
-
-[Read Full Lyrics →](oceania.qmd)
-</div>
+::: {.hero-subtitle}
+Where Oceanic Roots Meet Contemporary Poetry
+:::
 :::
 :::
 
-::: {.g-col-md-4}
-::: {.card .h-100}
-![Respire Cover](/gallery/song-respire.jpg){.card-img-top}
-
-<div class="card-body">
-## [Respire](respire.qmd)
-*(Electro-Soul • 2020)*
-
-<div class="lyrics-excerpt">
-"Between concrete and stardust I find my rhythm...  
-A cosmic dance of urban poetry"
-</div>
-
-[Explore Composition →](respire.qmd)
-</div>
-:::
+::: {.genre-filter}
+<button class="filter-btn active" data-genre="all">All Genres</button>
+<button class="filter-btn" data-genre="fusion">Cultural Fusion</button>
+<button class="filter-btn" data-genre="electro">Electro-Soul</button>
+<button class="filter-btn" data-genre="chanson">Poetic Chanson</button>
 :::
 
-::: {.g-col-md-4}
-::: {.card .h-100}
-![Ton Parfum Cover](/gallery/vanu-ton-parfum.jpg){.card-img-top}
+::: {.songs-grid}
 
-<div class="card-body">
-## [Ton Parfum dans l'Air](ton_parfum_dans_lair.qmd) 
-*(Poetic Chanson • 2025)*
+::: {.song-card data-genre="fusion"}
+::: {.card-inner}
+![Oceania Cover](/gallery/vanu-oceania.jpg){.card-image}
 
-<div class="lyrics-excerpt">
-"Tracing initials in the fog...  
-A constellation of whispered memories"
+<div class="card-content">
+<div class="song-meta">
+<span class="release-year">2023</span>
+<span class="song-badge">🌊 Pacific Anthem</span>
 </div>
 
-[Experience the Poetry →](ton_parfum_dans_lair.qmd)
+<h2 class="song-title">Oceania</h2>
+
+<div class="lyrics-preview">
+"A wave caressing every Pacific Island beach..."
+<button class="reveal-lyrics">Show More</button>
+</div>
+
+<div class="song-actions">
+[Stream Now](#){.cta-button .small .primary}
+[Full Lyrics](oceania.qmd){.cta-button .small .secondary}
+</div>
 </div>
 :::
 :::
-:::
 
-::: {.grid .mt-4}
-::: {.g-col-md-6}
-::: {.card}
-<div class="card-body">
-## Classic Creations
+::: {.song-card data-genre="electro"}
+::: {.card-inner}
+![Respire Cover](/gallery/song-respire.jpg){.card-image}
 
-### [Unblock Yourself to Me](unblock.qmd)
-*(© 2012)*  
-"Tell me that you love me forever...  
-A promise of reunion in melodic harmony"
+<div class="card-content">
+<div class="song-meta">
+<span class="release-year">2020</span>
+<span class="song-badge">⚡ Electro-Soul</span>
+</div>
 
-### [Angel](angel.qmd) 
-*(© 2012)*  
-"Calling your name through divine energy...  
-A spiritual dialogue in song"
+<h2 class="song-title">Respire</h2>
+
+<div class="lyrics-preview">
+"Between concrete and stardust I find my rhythm..."
+<button class="reveal-lyrics">Show More</button>
+</div>
+
+<div class="song-actions">
+[Stream Now](#){.cta-button .small .primary}
+[Production Notes](respire.qmd){.cta-button .small .secondary}
+</div>
 </div>
 :::
 :::
+
+<!-- Repeat pattern for other songs -->
+
 :::
 
-::: {.callout-note .mt-4}
-## Musical Evolution Timeline
-Explore Vanuella's artistic journey:
-- **2012:** Early pop-soul experiments
-- **2020:** Electro-cultural fusion phase  
-- **2023:** Pan-Pacific collaborations
-- **2025:** Poetic chanson mastery
+::: {.evolution-timeline}
+<h2 class="timeline-title">Musical Evolution</h2>
 
-[View Full Discography →](/media/index.qmd)
+<div class="timeline-item">
+<div class="timeline-year">2012</div>
+<div class="timeline-content">
+<h3>Pop-Soul Foundations</h3>
+<p>Early experiments blending soul melodies with pop sensibilities</p>
+<div class="track-list">
+[Unblock Yourself to Me](unblock.qmd) • [Angel](angel.qmd)
+</div>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-year">2020</div>
+<div class="timeline-content">
+<h3>Electro-Cultural Fusion</h3>
+<p>Marrying traditional rhythms with electronic production</p>
+</div>
+</div>
+
+<!-- Continue timeline items -->
+
 :::
 
+<style>
+/* Modern Song Cards */
+.songs-hero {
+  background: linear-gradient(135deg, #1a0633 0%, #2a0845 100%);
+  padding: 4rem 1rem;
+}
 
-<!-- --- -->
-<!-- title: "Songs" -->
-<!-- description: "Lyrics from Vanuella Watt's musical creations" -->
-<!-- image: images/vanuella-performing.jpg -->
-<!-- --- -->
+.songs-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2rem;
+}
 
-<!-- # Soulful Melodies from the Pacific -->
+.song-card {
+  perspective: 1000px;
+  transition: transform 0.3s ease;
+}
 
-<!-- Discover the poetic lyrics of Vanuella Watt's original compositions that blend passion, culture, and emotion. -->
+.card-inner {
+  background: var(--twitch-dark-light);
+  border-radius: 16px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-<!-- ::: {.song-listing} -->
+.song-card:hover .card-inner {
+  transform: rotateX(2deg) translateY(-8px);
+  box-shadow: 0 12px 40px rgba(145,70,255,0.15);
+}
 
-<!-- ## Unblock Yourself to Me -->
-<!-- *(© Vanuella Watt 2012)* -->
+.card-image {
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 3px solid var(--twitch-purple);
+  position: relative;
+}
 
-<!-- ::: {.lyrics} -->
+.card-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
+}
 
-<!-- ::: -->
+.song-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
 
-<!-- ## Angel -->
-<!-- *(© Vanuella Watt 2012)* -->
+.release-year {
+  background: var(--twitch-purple-dark);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
 
-<!-- ::: {.lyrics} -->
-<!-- I feel your power invading me   -->
-<!-- I wanna feel these miracles   -->
-<!-- I was frozen now I am so hot   -->
-<!-- I'm losing my sense of control   -->
+.lyrics-preview {
+  position: relative;
+  padding: 1rem;
+  background: rgba(255,255,255,0.05);
+  border-radius: 8px;
+  margin: 1rem 0;
+  transition: all 0.3s ease;
+}
 
-<!-- **Chorus:**   -->
-<!-- Angel, I am calling your name man   -->
-<!-- I need to feel you now   -->
-<!-- Oh oh oh oh oh oh   -->
-<!-- Angel, I am calling your name man   -->
-<!-- I need to feel you now   -->
+.reveal-lyrics {
+  background: none;
+  border: none;
+  color: var(--glow-color);
+  cursor: pointer;
+  padding: 0;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
 
-<!-- I need to believe you're real   -->
-<!-- Make myself feel eternity   -->
-<!-- I wish I can breathe you now   -->
-<!-- I wanna feel I am divine   -->
-<!-- ::: -->
+/* Evolution Timeline */
+.evolution-timeline {
+  padding: 3rem 2rem;
+  position: relative;
+}
 
-<!-- ::: -->
+.timeline-item {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 0;
+  position: relative;
+}
 
-<!-- ::: {.callout-note} -->
-<!-- ## More Music Coming Soon -->
-<!-- Explore [our complete discography](discography.qmd) to discover all of Vanuella's musical creations. -->
-<!-- ::: -->
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 115px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--twitch-purple);
+}
+
+.timeline-year {
+  width: 100px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--glow-color);
+}
+
+.timeline-content {
+  flex: 1;
+  background: var(--twitch-dark-light);
+  padding: 1.5rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.timeline-content::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  background: var(--twitch-purple);
+  transform: rotate(45deg);
+}
+</style>
+
+<script>
+// Add similar filtering logic as events page
+document.addEventListener('DOMContentLoaded', function() {
+  const filterButtons = document.querySelectorAll('[data-genre]');
+  const songCards = document.querySelectorAll('.song-card');
+  
+  // Lyrics reveal functionality
+  document.querySelectorAll('.reveal-lyrics').forEach(button => {
+    button.addEventListener('click', (e) => {
+      const lyricsDiv = e.target.closest('.lyrics-preview');
+      lyricsDiv.style.maxHeight = '500px';
+      e.target.remove();
+    });
+  });
+
+  // Filtering logic
+  document.querySelector('.genre-filter').addEventListener('click', (e) => {
+    const target = e.target.closest('.filter-btn');
+    if (!target) return;
+
+    const genre = target.dataset.genre;
+    filterButtons.forEach(btn => btn.classList.remove('active'));
+    target.classList.add('active');
+
+    songCards.forEach(card => {
+      card.style.display = genre === 'all' || card.dataset.genre === genre 
+        ? 'block' 
+        : 'none';
+    });
+  });
+});
+</script>

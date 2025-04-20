@@ -82,6 +82,18 @@
     --link-color-hover: #ffffff;
     --border-color: #444444; /* Dark border */
     --border-color-light: rgba(255, 255, 255, 0.1); /* Subtle light border */
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    --twitch-purple: #9146ff;
+    --twitch-purple-dark: #772ce8;
+    --twitch-dark: #18181b;
+    --twitch-dark-light: #1f1f23;
+    --twitch-text: #efeff1;
+    --twitch-text-light: #ffffff;
+    --twitch-text-gray: #adadb8;
+}
 
     /* Fonts */
     --font-primary: 'Inter', sans-serif; /* Body font */
@@ -898,3 +910,1169 @@ html[lang="en"] [data-lang="en"] { display: block !important; }
   .quarto-video-wrapper {
     margin-bottom: 0; /* Remove default bottom margin if title provides spacing */
   }
+  
+  
+  /* Importing Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Setting up basic font properties */
+body {
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to the entire body */
+    background-color: #18181b; /* Cyborg theme background color */
+    color: #eee; /* Light text color for contrast */
+    padding-top: 0.1px;
+    margin-top: -0.1px;
+}
+
+/* Media query for screens smaller than 768px (tablets, small desktops) */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem; /* Smaller base font size for smaller screens */
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem; /* Adjust brand font size */
+    }
+
+    .container-custom {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .btn-large {
+        font-size: 1rem; /* Adjust button size for smaller screens */
+        padding: 8px 16px;
+    }
+
+    .footer {
+        padding: 15px 0; /* Adjust footer padding */
+    }
+}
+
+/* Media query for screens smaller than 576px (mobile devices) */
+@media (max-width: 576px) {
+    body {
+        font-size: 0.8rem; /* Even smaller font size for mobile */
+    }
+
+    .navbar-brand {
+        font-size: 1rem; /* Further adjust brand font size */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.85rem; /* Smaller nav link font size */
+    }
+
+    .card-title {
+        font-size: 1.1rem; /* Adjust card title size */
+    }
+
+    .container-custom {
+        padding: 5px; /* Minimal padding on very small screens */
+    }
+}
+
+/* Media query for larger screens (desktops) */
+@media (min-width: 992px) {
+    .container-custom {
+        max-width: 960px; /* Set a max-width for large screens */
+        margin: 0 auto; /* Center container */
+    }
+
+    .btn-large {
+        font-size: 1.5rem; /* Larger button font size */
+        padding: 12px 24px;
+    }
+
+    .footer {
+        padding: 25px 0; /* More padding for footer */
+    }
+}
+
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif; /* Ensuring all headings use Roboto */
+    color: #ffffff; /* White color for all headings */
+}
+
+
+
+/* --- Navbar --- */
+.navbar {
+  background-color: var(--twitch-purple-dark) !important;
+  border-bottom: 1px solid var(--glow-color);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: var(--twitch-text-light) !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--glow-color) !important;
+  text-shadow: 0 0 10px var(--glow-spread-color);
+}
+
+
+/* Footer */
+footer {
+    background-color: #2a2a2a; /* Matching footer with navbar */
+    color: #d3d3d3; /* Light grey text */
+    padding: 20px 0;
+    text-align: center; /* Center-align text */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #1e90ff; /* Light blue background for primary buttons */
+    border-color: #1e90ff; /* Matching border color */
+}
+
+.btn-primary:hover {
+    background-color: #0f7be6; /* Darker blue on hover */
+    border-color: #0f7be6; /* Matching darker border on hover */
+}
+
+/* Links */
+a {
+    color: #1e90ff; /* Light blue color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #0f7be6; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Forms */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    background-color: #333333; /* Dark grey background for input fields */
+    border: 1px solid #444444; /* Slightly darker border */
+    color: #f8f9fa; /* Light text color */
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    border-color: #1e90ff; /* Light blue border on focus */
+}
+
+/* Cards */
+.card {
+    background-color: #2a2a2a; /* Dark grey background for cards */
+    border: 1px solid #333333; /* Slightly darker border */
+}
+
+.card-title {
+    color: #ffffff; /* White color for card titles */
+}
+
+/* Tables */
+.table {
+    background-color: #2a2a2a; /* Dark grey background for tables */
+    color: #f8f9fa; /* Light text color */
+}
+
+.table thead th {
+    background-color: #1e90ff; /* Light blue background for table headers */
+    color: #ffffff; /* White text color */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #333333; /* Slightly darker background for odd rows */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #2a2a2a; /* Original background color for even rows */
+}
+
+/* Custom classes for Cyborg theme adaptations */
+
+/* Custom container for padding and margin adjustments */
+.container-custom {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Custom text class for larger fonts */
+.text-large {
+    font-size: 1.25rem; /* Slightly larger text */
+}
+
+/* Custom button class for a larger button */
+.btn-large {
+    padding: 10px 20px;
+    font-size: 1.25rem; /* Larger font size for buttons */
+}
+
+
+/* vanuella.css */
+.song-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.song-button {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background-color: #8d4f9e;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px; /* Pill shape */
+  transition: background-color 0.3s ease;
+}
+
+.song-button:hover {
+  background-color: #6a3a7a;
+}
+
+.grid a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ccc;    /* Light gray border */
+  border-radius: 5px;       /* Rounded corners */
+  text-decoration: none;
+  color: #333;             /* Dark gray text */
+  margin-bottom: 0.5em;
+  text-align: center;
+  width: 100%;             /* Fill the grid column */
+  box-sizing: border-box;   /* Include padding in width */
+}
+
+.grid a:hover {
+  background-color: #ddd;  /* Slightly darker gray on hover */
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* Styles for social media links */
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0; /* Added some margin */
+  text-align: center; /* Center the links */
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 0.5em; /* Spacing between links */
+}
+
+.social-links a {
+  display: inline-block; /* Important for consistent sizing */
+}
+
+/* Style for the image icons */
+.social-links img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover; /* Ensure images scale nicely */
+  border-radius: 50%; /* Circular icons, optional */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.social-links img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Language-specific content */
+.lang-fr, .lang-en {
+    display: none;
+}
+
+html[lang="fr"] .lang-fr {
+    display: inline;
+}
+
+html[lang="en"] .lang-en {
+    display: inline;
+}
+
+/* Language toggle button styling */
+#language-toggle {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#language-toggle:hover {
+    opacity: 0.8;
+}
+
+/* Language-specific content visibility */
+[data-lang]:not([data-lang='fr']):not([data-lang='en']) {
+    display: none !important;
+}
+
+/* Show French content by default */
+html[lang="fr"] [data-lang="fr"] {
+    display: block;
+}
+
+/* Show English content when English is selected */
+html[lang="en"] [data-lang="en"] {
+    display: block;
+}
+
+/* Footer text visibility */
+#footer-fr, #footer-en {
+    display: none;
+}
+
+html[lang="fr"] #footer-fr {
+    display: inline;
+}
+
+html[lang="en"] #footer-en {
+    display: inline;
+}
+
+/* Language dropdown styling */
+.language-select {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.language-select option {
+    background-color: #8d4f9e;
+    color: white;
+}
+
+.language-select:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.language-select:focus {
+    outline: none;
+    border-color: white;
+}
+
+/* Variables (Optional but helpful for customization) */
+$cover-title-font: 'Raleway', sans-serif;
+$cover-headline-font: 'Lato', sans-serif;
+$cover-body-font: 'Lato', sans-serif;
+$cover-title-color: rgb(228, 228, 228);
+$cover-headline-color: rgb(255, 255, 255);
+$cover-body-color: rgb(255, 255, 255);
+$grid-padding: 10px; // Mobile padding from source
+$grid-padding-desktop: 35px; // Desktop padding from source
+
+/*--------------------------------------------------------------------------*/
+/* Cover Section Styles                                                     */
+/* Based on source styles for '.cover-border', '.cover-wrapper', etc.       */
+/*--------------------------------------------------------------------------*/
+
+
+.cover-section {
+  // Layout
+  height: 100vh;            // Full viewport height
+  min-height: 600px;         // Prevent content from being too squished on small screens
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;    // Better for stacking content vertically
+  align-items: center;       // Horizontal centering of child elements
+  justify-content: center;    // Vertical centering of child elements
+  text-align: center;
+  
+  // Background
+  background-size: cover;
+  background-position: 39% 64%; // From source HTML style attribute
+  background-repeat: no-repeat;
+  background-attachment: fixed; // Optional: creates parallax effect
+  background-color: #222;       // Fallback color while image loads
+  
+  // Text
+  color: white;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5); // Improves text readability on busy backgrounds
+  
+  // Effects
+  overflow: hidden;            // Prevent scrollbars caused by the cover itself
+  
+  // Optional overlay (uncomment to use)
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%);
+    z-index: 1;
+  }
+  
+  // Content container (to position above overlay)
+  &__content {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    padding: 20px;
+    width: 90%;
+  }
+}
+
+.cover-content {
+  z-index: 2; // Ensure content is above overlay
+  padding: 20px;
+  max-width: 800px; // Prevent text from becoming too wide
+}
+
+.cover-title {
+  font-family: $cover-title-font;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: $cover-title-color;
+  margin-bottom: 1rem; // Space below the site title
+}
+
+.cover-headline {
+  font-family: $cover-headline-font;
+  font-weight: 400;
+  font-size: 49px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: $cover-headline-color;
+  margin-bottom: 1rem; // Space below the headline
+}
+
+.cover-body {
+  font-family: $cover-body-font;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: $cover-body-color;
+  margin-bottom: 2rem; // Space below the body text
+}
+
+// Responsive font sizes (adjust as needed based on source @media queries)
+@media (max-width: 1200px) {
+  .cover-headline { font-size: 37px; }
+  .cover-body { font-size: 11px; }
+  .cover-title { font-size: 12px; }
+}
+@media (max-width: 900px) {
+  .cover-headline { font-size: 29px; }
+  .cover-body { font-size: 9px; }
+  .cover-title { font-size: 10px; }
+}
+@media (max-width: 480px) {
+  .cover-headline { font-size: 24px; }
+  .cover-body { font-size: 9px; }
+  .cover-title { font-size: 9px; }
+}
+
+
+/*--------------------------------------------------------------------------*/
+/* Gallery Grid Styles                                                      */
+/* Using Quarto's built-in gallery requires less custom CSS here           */
+/*--------------------------------------------------------------------------*/
+
+.quarto-gallery-grid {
+  // Replicate padding from source's .grid-item
+  --grid-item-padding: #{$grid-padding}; // Use SCSS variable
+}
+
+@media (min-width: 900px) {
+  .quarto-gallery-grid {
+    --grid-item-padding: #{$grid-padding-desktop}; // Use SCSS variable
+  }
+}
+
+/* Style gallery items */
+.quarto-grid-item {
+  // Optional: Add transition for hover effects
+  // transition: transform 0.3s ease;
+}
+
+.quarto-grid-item:hover {
+  // Optional: slight zoom on hover
+  // transform: scale(1.03);
+}
+
+/* Ensure images fill their container */
+.quarto-grid-item img {
+  display: block;
+  width: 100%;
+  height: auto; // Maintain aspect ratio
+}
+
+/* Adjust navbar appearance if needed */
+.navbar {
+  // Example: Add a subtle shadow
+  // box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+/* vanuella.css */
+
+/* --- Overall & Banner --- */
+body {
+  background-color: #18181b; /* Dark background common on Twitch */
+  color: #eee; /* Light text */
+}
+
+.quarto-title-block-banner { /* Adjusting default banner */
+    background-color: #e3e3e3; /* Slightly different dark shade */
+    color: #fff;
+    padding: 3rem 1rem 2rem 1rem; /* Adjust padding */
+    text-align: center; /* Keep this on the main banner */
+    border-bottom: 1px solid #333;
+}
+
+/* Target the container of the h1 if needed, but often targeting h1 is enough */
+/* .quarto-title-banner .quarto-title {
+    text-align: center;
+} */
+
+.quarto-title-banner .quarto-title h1.title {
+    font-size: 2.8rem; /* Make title bigger */
+    font-weight: 700;/* color: #a970ff; Twitch-like purple */
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    /* Ensure the text *inside* the h1 is centered */
+    text-align: center; /* <<< ADD OR CONFIRM THIS LINE */
+    /* Optional: If the h1 block itself isn't centering */
+    /* display: inline-block; /* Or try making it inline-block */
+}
+
+.quarto-title-banner .subtitle {
+    font-size: 1.3rem;
+    color: #ccc; /* Slightly dimmer subtitle */
+    max-width: 700px; /* Keep max-width */
+    margin: 0 auto 1rem auto; /* This centers the block */
+    line-height: 1.5;
+    /* Add this to center text within the block, especially if it wraps */
+    text-align: center; /* <<< ADD OR CONFIRM THIS LINE */
+}
+
+/* --- Intro Section --- */
+.intro {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  margin: 2rem auto; /* Center and add vertical space */
+  background-color: #2a2a2e; /* Dark card background */
+  border-radius: 8px;
+  border: 1px solid #444;
+  color: #ddd;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.intro h2 {
+  color: #a970ff; /* Purple heading */
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.intro ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+.intro li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+.intro strong {
+  color: #c7a5ff; /* Lighter purple for highlight */
+}
+.intro .quote { /* Style the quote */
+    font-style: italic;
+    color: #aaa;
+    margin-top: 1.5rem;
+    display: block; /* Ensure it's on its own line */
+    font-size: 1.1rem;
+}
+
+/* --- Action Links Section --- */
+.action-links {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  background-color: #18181b; /* Match body or slightly different */
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.action-links .grid { /* Grid container */
+    align-items: start; /* Align tops of columns */
+    gap: 1rem; /* Add gap between grid columns */
+}
+
+.action-links .action-group { /* Each column (Watch, Listen, Join) */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #202023; /* Darker card for actions */
+    border-radius: 6px;
+}
+
+.action-links h3 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid #a970ff; /* Underline headings */
+  display: inline-block; /* Make border fit content */
+  padding-bottom: 0.3rem;
+}
+
+/* Big Twitch Button */
+.action-links .primary-action a {
+  display: inline-flex; /* Align icon and text */
+  align-items: center;
+  justify-content: center;
+  padding: 44px 23px;
+  background-color: #9146ff; /* Twitch Purple */
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 0.5rem; /* Space below button */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+.action-links .primary-action a:hover {
+  background-color: #772ce8; /* Darker purple on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+.action-links .primary-action img {
+    width: 22px; height: 22px; margin-right: 10px; vertical-align: middle;
+}
+.action-links .action-group > em { /* Text below Twitch button */
+    display: block;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+
+/* Secondary Links (Spotify, YouTube, etc.) */
+.action-links .secondary-links a {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.6rem 0.5rem; /* Vertical spacing */
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  background-color: #3a3a3e; /* Button-like bg */
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+.action-links .secondary-links a:hover {
+  color: #fff;
+  background-color: #4f4f53;
+}
+.action-links .secondary-links img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+
+/* --- Latest Releases Section --- */
+.releases-section {
+    padding: 3rem 1rem;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto; /* Remove default top/bottom margin if using HR */
+}
+
+.releases-section > h3 { /* Section Title */
+    color: #a970ff; /* Purple heading */
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.releases-section .grid {
+    gap: 1.5rem; /* More space between release cards */
+}
+
+.releases-section .g-col { /* Style individual release cards */
+    background-color: #2a2a2e; /* Dark card background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+    color: #ddd;
+    text-align: left; /* Align text left within card */
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+ .releases-section .g-col strong { /* Song Title */
+    display: block;
+    font-size: 1.3rem;
+    color: #eee;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+ }
+ .releases-section .g-col em { /* Description */
+    display: block;
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 1rem;
+    font-style: normal; /* Remove default italic */
+ }
+ .releases-section .g-col a { /* Listen Now Link */
+    color: #9146ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-block; /* Allow styling */
+    margin-top: 0.5rem;
+ }
+  .releases-section .g-col a:hover {
+    text-decoration: underline;
+    color: #c7a5ff;
+  }
+
+/* Final CTA below releases */
+.releases-section .twitch-cta {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+.releases-section .twitch-cta a {
+    color: #9146ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+ .releases-section .twitch-cta a:hover {
+    text-decoration: underline;
+ }
+
+/* --- General --- */
+hr {
+  border: 0;
+  height: 1px;
+  background: #444; /* Darker horizontal rule */
+  margin: 3rem auto; /* More space around HR */
+  max-width: 90%;
+}
+
+/* Ensure images in links have correct alignment/size */
+a img {
+    vertical-align: middle; /* Better alignment with text */
+}
+/* Modern Twitch-inspired styling */
+
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--twitch-dark);
+  color: var(--twitch-text);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #1a0633 0%, #2a0845 100%);
+  padding: 5rem 1rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('gallery/vanu.jpg') center/cover;
+  opacity: 0.15;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+  color: var(--twitch-text-light);
+  line-height: 1.1;
+  background: linear-gradient(90deg, #ffffff 0%, #c2a1ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  color: var(--twitch-text-gray);
+}
+
+/* Updated CTA Buttons with Glow Effects */
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  height: 30%;
+  width: 30%;
+  font-size: 1.25rem;
+  padding: 1rem 2.5rem;
+  border-radius: 1em;
+  text-decoration: none;
+  transition: all 0.3s;
+  margin: 0.5rem;
+  border: 0.25em solid var(--glow-color);
+  position: relative;
+  color: var(--glow-color) !important;
+  background-color: var(--btn-color);
+  box-shadow: 0 0 1em 0.25em var(--glow-color),
+             0 0 4em 1em var(--glow-spread-color),
+             inset 0 0 0.75em 0.25em var(--glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
+}
+
+/* Primary Button Specific Styles */
+.cta-button.primary {
+  border-color: var(--twitch-purple);
+  background-color: var(--twitch-purple);
+  color: white !important;
+}
+
+/* Hover Effects */
+.cta-button:hover {
+  color: var(--btn-color) !important;
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em 0.25em var(--glow-color),
+             0 0 4em 2em var(--glow-spread-color),
+             inset 0 0 0.75em 0.25em var(--glow-color);
+  transform: translateY(-2px);
+}
+
+/* Active State */
+.cta-button:active {
+  box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+             0 0 2.5em 2em var(--glow-spread-color),
+             inset 0 0 0.5em 0.25em var(--glow-color);
+}
+
+/* Secondary Button Specific Styles */
+.cta-button.secondary {
+  background-color: transparent;
+  border: 2px solid var(--twitch-purple);
+  color: var(--twitch-text-light) !important;
+}
+
+/* Glow Effect Pseudo-element */
+.cta-button::after {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: 0.7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+  pointer-events: none;
+}
+
+
+
+
+/* Button Container for Alignment */
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.twitch-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 3rem auto;
+  max-width: 1000px;
+}
+
+.feature {
+  background-color: var(--twitch-dark-light);
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 300px;
+  text-align: left;
+  border: 1px solid #2e2e35;
+  transition: transform 0.2s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  border-color: var(--twitch-purple);
+}
+
+.feature h3 {
+  color: var(--twitch-text-light);
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.feature p {
+  color: var(--twitch-text-gray);
+  margin-bottom: 0;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--twitch-purple);
+}
+
+/* Tracks Section */
+.tracks-section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--twitch-text-light);
+}
+
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.track-card {
+  background-color: var(--twitch-dark-light);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #2e2e35;
+}
+
+.track-image {
+  height: 160px;
+  background-color: #2a0845;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--twitch-text-light);
+  font-size: 3rem;
+}
+
+.track-info {
+  padding: 1.5rem;
+}
+
+.track-info h3 {
+  margin-top: 0;
+  color: var(--twitch-text-light);
+}
+
+.track-info p {
+  color: var(--twitch-text-gray);
+  margin-bottom: 1.5rem;
+}
+
+.track-link {
+  color: var(--twitch-purple);
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+
+.track-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Quarto Title Block Overrides */
+.quarto-title-block-banner {
+  background-color: transparent !important;
+  padding-bottom: 0 !important;
+}
+
+.quarto-title-banner {
+    margin-bottom: 1em;
+    color: #fefdfe;
+    background: #18181B;
+}
+
+/* Modern Event Cards */
+.event-card {
+    perspective: 1000px;
+    transition: transform 0.3s ease;
+}
+
+.event-card-inner {
+    background: var(--twitch-dark-light);
+    border-radius: 16px;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.event-card:hover .event-card-inner {
+    transform: translateY(-8px) rotateX(2deg);
+    box-shadow: 0 12px 40px rgba(145,70,255,0.15);
+}
+
+.event-image {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 3px solid var(--twitch-purple);
+    position: relative;
+}
+
+.event-image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
+}
+
+.event-content {
+    padding: 1.5rem;
+    position: relative;
+}
+
+.event-badge {
+    position: absolute;
+    top: -18px;
+    right: 20px;
+    background: var(--twitch-purple-dark);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(145,70,255,0.3);
+}
+
+.event-meta {
+    color: var(--twitch-text-gray);
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.event-highlight {
+    font-style: italic;
+    color: var(--glow-color);
+    margin: 1rem 0;
+    padding-left: 1rem;
+    border-left: 2px solid var(--twitch-purple);
+}
+
+.events-hero {
+    background: linear-gradient(135deg, #2a0845 0%, #1a0633 100%);
+    padding: 4rem 1rem;
+}
+
+.events-filter {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem 0;
+    background: var(--twitch-dark-light);
+}
+
+.filter-btn {
+    background: transparent;
+    border: 2px solid var(--twitch-purple);
+    color: var(--twitch-text-light);
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn.active {
+    background: var(--twitch-purple);
+    box-shadow: 0 0 15px rgba(145,70,255,0.4);
+}
+
+.masonry-layout {
+    column-count: 3;
+    column-gap: 2rem;
+    padding: 0 2rem;
+}
+
+@media (max-width: 992px) {
+    .masonry-layout { column-count: 2; }
+}
+
+@media (max-width: 768px) {
+    .masonry-layout { column-count: 1; }
+}

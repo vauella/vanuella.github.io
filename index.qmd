@@ -1,74 +1,107 @@
 ---
-title: "Vanuella | Live AI Music on Twitch"
+title: "Vanuella Watt"
+subtitle: "Experience unique, interactive performances where Vanuella generates music in real-time based on your requests and chat interactions."
 title-block-banner: true
 page-layout: full
-subtitle: "Your AI V-Singer is LIVE! Request songs, vibe to unique AI-generated tracks, and join the interactive music stream."
 anchor-sections: false
 css: vanuella.css
 ---
 
-::: {.intro}
-## 🎤 Drop In! Vanuella's Live AI Music Stream!
+::: {.hero}
+::: {.hero-content}
 
-Get ready for a unique music experience! Vanuella, your **AI-powered virtual singer**, creates and performs music **live on Twitch**.
+# Live AI Music on Twitch{.hero-title}
 
-✔ **Catch LIVE interactive shows**
-✔ **Request YOUR songs** & influence the vibe
-✔ Hear **one-of-a-kind AI tracks** made on the fly!
+::: {.hero-subtitle}
 
-<span class="quote">*"Music that evolves with you. Let's vibe!"*</span>
-:::
+Request songs, vibe to unique AI-generated tracks, and join the interactive music stream.
 
-::: {.action-links}
-::: {.grid}
-::: {.g-col-12 .g-col-md-4 .action-group}
-### 🎧 Listen Anytime
-::: {.secondary-links}
-[<img src="images/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify"> Listen on Spotify](https://open.spotify.com/user/317cyazoe4pexq7cad4b72jfkery?si=318385dd8f714714) <br>
-[<img src="images/youtube_social_icon_red.png" alt="YouTube"> Watch on YouTube](https://www.youtube.com/@VanuellaSing)
-:::
-*Explore released AI-generated tracks.*
 :::
 
-::: {.g-col-12 .g-col-md-4 .action-group}
-### 🔥 Watch Live!
-::: {.primary-action}
-[<img src="images/twitch_wordmark_extruded_purple.png" alt="Twitch Icon"> Watch on Twitch NOW!](https://www.twitch.tv/vanuellasing)
+[![Twitch Icon](images/twitch_wordmark_extruded_purple.png)](https://www.twitch.tv/vanuellasing){.cta-button .primary}
+
 :::
-*Follow to get notified & join the fun!*
 :::
 
-::: {.g-col-12 .g-col-md-4 .action-group}
-### ✨ Join the Community
-::: {.secondary-links}
-[<img src="images/PATREON_SYMBOL_1_WHITE_RGB.png" alt="Patreon"> Support on Patreon](https://www.patreon.com/vanuella) <br>
-[<img src="images/twitter-x.png" alt="Twitter"> Follow on X (Twitter)](https://x.com/VanuellaSing)
+::: {.features}
+::: {.feature}
+::: {.feature-icon}
+🎵
 :::
-*Get perks, updates & behind-the-scenes.*
+
+### Real-Time AI Generation
+
+Every performance is unique with music generated on-the-fly based on viewer requests and mood.
+:::
+
+::: {.feature}
+::: {.feature-icon}
+💬
+:::
+
+### Interactive Experience
+
+Chat directly influences the music - suggest genres, moods, or even specific song elements.
+:::
+
+::: {.feature}
+::: {.feature-icon}
+✨
+:::
+
+### One-of-a-Kind Tracks
+
+Each stream creates exclusive music you won't hear anywhere else, with recordings available afterward.
 :::
 :::
+
+::: {#tracks .tracks-section}
+## Latest AI-Generated Tracks {.section-title}
+
+::: {.tracks-grid}
+::: {.track-card}
+::: {.track-image}
+🎶
+:::
+
+::: {.track-info}
+### Respire
+
+Ethereal synthwave vibes created during our late-night chill stream.
+
+[Listen Now →](#){.track-link}
+:::
+:::
+
+::: {.track-card}
+::: {.track-image}
+🎶
+:::
+
+::: {.track-info}
+### Parfum Dans L'air
+
+Chill lo-fi beats generated from viewer suggestions about summer memories.
+
+[Listen Now →](#){.track-link}
+:::
+:::
+
+
+::: {.track-card}
+::: {.track-image}
+🎶
+:::
+
+::: {.track-info}
+### Oceania
+
+This pan-Pacific anthem creates a musical tapestry connecting Melanesia, Polynesia, and Micronesia through its multilingual composition.
+
+[Listen Now →](#){.track-link}
+:::
+:::
+
 :::
 
 ---
-
-::: {.releases-section}
-### 🎵 Fresh AI Tracks
-
-::: {.grid}
-::: {.g-col-12 .g-col-md-6}
-**Respire**
-*Ethereal synthwave vibes.*
-[Listen Now](songs/respire.qmd)
-:::
-
-::: {.g-col-12 .g-col-md-6}
-**Parfum Dans L'air**
-*Chill lo-fi beats for late nights.*
-[Listen Now](songs/ton_parfum_dans_lair.qmd)
-:::
-:::
-
-<div class="twitch-cta">
-*Hear new songs created live every week!* <br> **[Follow Vanuella on Twitch](https://www.twitch.tv/vanuellasing)** *to catch the next stream & request your own!*
-</div>
-:::
