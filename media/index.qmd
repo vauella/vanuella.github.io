@@ -26,7 +26,7 @@ format:
 -   [Island Time](https://islandculturearchivalsupport.wordpress.com/2015/06/03/official-video-of-oceania-a-hymn-for-the-pacific/),
 -   [NC Press](http://www.ncpresse.nc/Sortie-de-Oceania-a-Hymn-for-the-Pacific-par-Vanuella-Watt-et-Igelese-Ete_a3334.html),
 -   [Tahiti News](http://www.tahitinews.co/nouveau-le-clip-de-oceania-lhymne-du-pacifique/), [TNTV](http://www.tntv.pf/Un-hymne-pour-le-Pacifique_a4103.html),
--   [NC Weekly (PDF)](../pdfs/OCEANIA-in-NC-WEEKLY.pdf),
+-   [NC Weekly (PDF)
 -   [Radio 1 (PF)](http://www.radio1.pf/oceania-un-hymne-pour-le-pacifique/),
 -   [Mangrove.nc](http://www.mangrove.nc/index.php/albums/nouvelle-caledonie/386/oceania-all-stars-oceania-a-hymn-for-the-pacific),
 -   [Tiare FM](http://www.tiarefm.pf/videogallery/oceania-all-stars-a-hymn-for-the-pacific/), [Press Release](#oceania-press-release)
@@ -51,11 +51,11 @@ format:
 
 -   [Radio NZ (OGG)](http://podcast.radionz.co.nz/upbt/upbt-20140619-1235-yves_lafoy_and_nathalie_buckrell_la_fete_de_la_musique-00.ogg),
 
--   [Press Release (PDF)](../pdfs/NZ-TOUR-PRESS-RELEASE-V-Watt.pdf)
+-   [Press Release (PDF)
 
 **May 14 (Post Date):** Mention in "Marions-nous" magazine.
 
-[PDF Scan](../pdfs/MP-Vanuella-Watt1.pdf)
+[PDF Scan]
 
 **March 7:** FrancoSonik 2014 Event, Alliance française, Port-Vila, Vanuatu.
 
@@ -201,7 +201,7 @@ format:
 
 **October:** Collaboration Concert with James Carter, Nouméa. NC Weekly Feature (Oct 21).
 
-**Media:** - [NC Weekly (PDF)](../pdfs/STANDING-OVATION1.pdf)
+**Media:** - [NC Weekly (PDF)
 
 **Aug/Sept:** Pacific Games Performances, Nouméa. - [YouTube Link](http://www.youtube.com/watch?v=YhwQKYgrXcs)
 
