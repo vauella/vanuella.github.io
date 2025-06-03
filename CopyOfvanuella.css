@@ -795,13 +795,12 @@ select:focus {
 }
 
 .social-links img {
-  width: 40px; /* Increased from 30px for better visibility */
-  height: 40px;
-  object-fit: contain; /* Changed to contain to prevent distortion */
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
   border-radius: 50%;
-  opacity: 0.9; /* Slightly higher base opacity */
-  filter: brightness(1); /* Ensure icons are clear */
-  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease;
+  opacity: 0.8;
 }
 
 .social-links img:hover {

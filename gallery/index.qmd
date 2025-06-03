@@ -22,14 +22,11 @@ A curated collection of beautiful photography
 :::::
 
 ::: {#gallery-grid .gallery}
-<!-- Add your images here, referencing the 'gallery' folder -->
 
-<!-- Quarto will handle the grid layout and lightbox linking -->
 ![Vanuella Oceania Celebration Concert 2018](vanu-oceania.jpg){group="miezu"}
 
 ![Vanu Respire Pochette](vanu-ton-parfum.jpg){group="miezu"}
 
 
-<!-- Add more images as needed -->
-:::
 
+:::

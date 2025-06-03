@@ -10,11 +10,11 @@ css: vanuella.css
 ::: {.hero}
 ::: {.hero-content}
 
-# Live AI Music on Twitch{.hero-title}
+# Live AI Music, Powered By You{.hero-title}
 
 ::: {.hero-subtitle}
 
-Request songs, vibe to unique AI-generated tracks, and join the interactive music stream.
+Every beat is created live based on chat — Shape the Next Track, shape moods, and hear music you can't find anywhere else.
 
 :::
 
@@ -69,7 +69,7 @@ Each stream creates exclusive music you won't hear anywhere else, with recording
 
 Ethereal synthwave vibes created during our late-night chill stream.
 
-[Listen Now →](#){.track-link}
+[Jam With Me Live →](/songs/respire.qmd){.track-link}
 :::
 :::
 
@@ -83,7 +83,7 @@ Ethereal synthwave vibes created during our late-night chill stream.
 
 Chill lo-fi beats generated from viewer suggestions about summer memories.
 
-[Listen Now →](#){.track-link}
+[Jam With Me Live →](/songs/ton_parfum_dans_lair.qmd){.track-link}
 :::
 :::
 
@@ -98,10 +98,18 @@ Chill lo-fi beats generated from viewer suggestions about summer memories.
 
 This pan-Pacific anthem creates a musical tapestry connecting Melanesia, Polynesia, and Micronesia through its multilingual composition.
 
-[Listen Now →](#){.track-link}
+[Jam With Me Live →](/songs/oceania.qmd){.track-link}
 :::
 :::
 
 :::
 
----
+::: {.testimonial-section}
+## What Viewers Are Saying
+
+::: {.testimonial}
+*"It’s like watching magic happen in real-time. I asked for synthwave rain beats… and got them."*  
+— @SleeplessInSpacetime
+:::
+
+:::

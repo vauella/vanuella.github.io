@@ -4,8 +4,8 @@ project:
 website:
   title: "Vanuella"
   description: "Discover the musical universe that creates the bridge between music and love through the soul" # Added Description
-  image: images/vanu-logo-150px.png
-  favicon: images/vanu-favicon.png
+  image: images/vanu-ai-logo-150px.png
+  favicon: images/vanu-flavicon.png
   twitter-card:
     site: "@Vanuella"
   open-graph: true
@@ -39,10 +39,14 @@ website:
   page-footer:
     left: "Copyright © 2025 Vanuella. All rights reserved."
     right:
-      - icon: github
-        href: https://github.com/vanuella
       - icon: twitter
-        href: https://twitter.com/vanuella
+        href: https://twitter.com/VanuellaSing
+      - icon: twitch
+        href: https://twitch.tv/vanuellasing
+      - icon: youtube
+        href: https://youtube.com/@VanuellaSing
+      - icon: soundcloud
+        href: https://soundcloud.com/vanuella-985141488
 
 
 format:

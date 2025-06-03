@@ -1,6 +1,5 @@
 ---
 title: "Events"
-description: "All appearances featuring Vanuella Watt."
 title-block-banner: true
 page-layout: full
 anchor-sections: false
