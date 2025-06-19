@@ -775,41 +775,6 @@ select:focus {
   text-decoration: underline;
   color: var(--accent-color-secondary);
 }
-
-/* Social Links */
-.social-links {
-  list-style: none;
-  padding: 0;
-  margin: 1.5em 0;
-  text-align: center;
-}
-
-.social-links li {
-  display: inline-block;
-  margin: 0 0.7em;
-  /* More spacing */
-}
-
-.social-links a {
-  display: inline-block;
-}
-
-.social-links img {
-  width: 40px; /* Increased from 30px for better visibility */
-  height: 40px;
-  object-fit: contain; /* Changed to contain to prevent distortion */
-  border-radius: 50%;
-  opacity: 0.9; /* Slightly higher base opacity */
-  filter: brightness(1); /* Ensure icons are clear */
-  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
-}
-
-.social-links img:hover {
-  transform: scale(1.15);
-  /* Slightly larger hover */
-  opacity: 1.0;
-}
-
 /* Language Switching */
 .lang-fr,
 .lang-en {
@@ -1680,42 +1645,148 @@ textarea:focus {
   margin-bottom: 2em;
 }
 
-/* Styles for social media links */
+/* Social Links - Optimized */
 .social-links {
-  list-style: none;
-  padding: 0;
-  margin: 1em 0;
-  /* Added some margin */
-  text-align: center;
-  /* Center the links */
-}
-
-.social-links li {
-  display: inline-block;
-  margin: 0 0.5em;
-  /* Spacing between links */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.2rem 0;
+  margin: 0 auto;
+  max-width: 90%;
 }
 
 .social-links a {
-  display: inline-block;
-  /* Important for consistent sizing */
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-/* Style for the image icons */
 .social-links img {
-  width: 30px;
-  height: 30px;
-  object-fit: cover;
-  /* Ensure images scale nicely */
-  border-radius: 50%;
-  /* Circular icons, optional */
-  transition: transform 0.2s ease-in-out;
-  /* Smooth hover effect */
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+  transition: all 0.3s ease;
 }
 
-.social-links img:hover {
-  transform: scale(1.1);
-  /* Slightly enlarge on hover */
+.social-links a:hover img {
+  transform: scale(1.15) translateY(-3px);
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+}
+
+/* Social Section - Popping Design */
+.social-section {
+  background: linear-gradient(135deg, #6a3093 0%, #8d4f9e 100%);
+  padding: 3rem 1rem;
+  margin: 2rem 0;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.social-section p:empty {
+  display: none;
+}
+
+.social-grid > p {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.social-card p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+.social-section::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+  z-index: -1;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 1.8rem 1rem;
+  text-align: center;
+  transition: all 0.4s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px);
+}
+
+.social-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+  background: white;
+}
+
+.social-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 1rem;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.social-card:hover .social-icon {
+  transform: scale(1.15);
+}
+
+.social-card h3 {
+  color: #8d4f9e;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.social-card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.vibe-quote {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.4rem;
+  color: white;
+  margin-top: 2.5rem;
+  font-weight: 500;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  letter-spacing: 0.5px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+.quote {
+  display: block;
+  margin-top: 1rem;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #8d4f9e;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 /* Language-specific content */
