@@ -7,6 +7,7 @@ anchor-sections: false
 css: vanuella.css
 ---
 
+
 ::: {.hero}
 ::: {.hero-content}
 
@@ -20,7 +21,44 @@ Every beat is created live based on chat — Shape the Next Track, shape moods, 
 
 [![Twitch Icon](images/twitch_wordmark_extruded_purple.png)](https://www.twitch.tv/vanuellasing){.cta-button .primary}
 
+
 :::
+:::
+
+::: {.social-section}
+::: {.social-grid}
+<a href="https://www.twitch.tv/vanuellasing" class="social-card" target="_blank">
+<img src="images/twitch_wordmark_extruded_purple.png" alt="Twitch" class="social-icon">
+<h3>Live Streams</h3>
+<p>Experience real-time AI music creation</p>
+</a>
+
+<a href="https://www.patreon.com/vanuella" class="social-card" target="_blank">
+<img src="images/PATREON_SYMBOL_1_WHITE_RGB.png" alt="Patreon" class="social-icon">
+<h3>Exclusive Content</h3>
+<p>Behind-the-scenes & early access</p>
+</a>
+
+<a href="https://twitter.com/VanuellaSing" class="social-card" target="_blank">
+<img src="images/twitter-x.png" alt="Twitter" class="social-icon">
+<h3>Latest Updates</h3>
+<p>News & announcements</p>
+</a>
+
+<a href="https://youtube.com/@VanuellaSing" class="social-card" target="_blank">
+<img src="images/youtube_social_icon_red.png" alt="YouTube" class="social-icon">
+<h3>Music Videos</h3>
+<p>Full performances & highlights</p>
+</a>
+
+<a href="https://open.spotify.com/artist/4GziIZh9D15WSH0dV0Zobs" class="social-card" target="_blank">
+<img src="images/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify" class="social-icon">
+<h3>Stream Music</h3>
+<p>Listen anywhere, anytime</p>
+</a>
+:::
+
+<span class="vibe-quote">"Music that evolves with you. Let's vibe!"</span>
 :::
 
 ::: {.features}
@@ -57,6 +95,7 @@ Each stream creates exclusive music you won't hear anywhere else, with recording
 
 ::: {#tracks .tracks-section}
 ## Latest AI-Generated Tracks {.section-title}
+:::
 
 ::: {.tracks-grid}
 ::: {.track-card}
