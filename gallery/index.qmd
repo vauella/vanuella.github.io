@@ -23,35 +23,10 @@ A curated collection of beautiful photography
 
 ::: {#gallery-grid .gallery}
 
-![Vanu siging](vanu_concert.jpg){group="miezu"}
-
-![Vanu](vanu2024v3.jpg){group="miezu"}
-
 ![Vanuella Oceania Celebration Concert 2018](vanu-oceania.jpg){group="miezu"}
 
 ![Vanu Respire Pochette](vanu-ton-parfum.jpg){group="miezu"}
 
-![Vanu](Photo_Respire10.jpg){group="miezu"}
-
-![Vanu ](Photo_Respire3.jpg){group="miezu"}
-
-![Vanu](Photo_Respire4.jpg){group="miezu"}
-
-![Vanu Respire Pochette](Photo_Respire5.jpg){group="miezu"}
-
-![Vanu](photo media.jpg1.jpg){group="miezu"}
-
-![Vanu](Photo_Respire9.jpg){group="miezu"}
-
-![Vanu](photo media.jpg3_Respire 2024,2025.jpg){group="miezu"}
-
-![Vanu](photo-vanu5p_11 Aug 2016.jpg){group="miezu"}
-![Vanu](vanu.jpg){group="miezu"}
-
-
-![Vanu](vanu_Fiji_Tour_2014.jpg){group="miezu"}
-
-![Vanu](vanu_red.jpg){group="miezu"}
 
 
 :::
