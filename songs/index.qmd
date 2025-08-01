@@ -28,6 +28,32 @@ Where Oceanic Roots Meet Contemporary Poetry
 
 ::: {.song-card data-genre="fusion" role="article" aria-labelledby="oceania-title"}
 ::: {.card-inner}
+<img src="/images/la-meme-couleur-de-coeur.jpg" alt="La même couleur de cœur" class="card-image" loading="lazy">
+
+<div class="card-content">
+<div class="song-meta">
+<span class="release-year">2025</span>
+<span class="song-badge">Urban soul anthem exploring shared humanity in crisis</span>
+</div>
+
+<h2 class="song-title" id="lamemecouleurdecaeur-title">La même couleur de cœur</h2>
+
+<div class="lyrics-preview" id="lamemecouleurdecaeur-lyrics" aria-expanded="false">
+"Urban soul anthem exploring shared humanity in crisis..."
+<button class="reveal-lyrics" aria-controls="lamemecouleurdecaeur-lyrics" aria-expanded="false">Show More</button>
+</div>
+
+<div class="song-actions">
+<a href="#" class="cta-button small primary" aria-label="Stream Oceania">Stream Now</a>
+<a href="lamemecouleurdecaeur.qmd" class="cta-button small secondary" aria-label="View full lyrics for Oceania">Full Lyrics</a>
+</div>
+</div>
+:::
+:::
+
+
+::: {.song-card data-genre="fusion" role="article" aria-labelledby="oceania-title"}
+::: {.card-inner}
 <img src="/gallery/vanu-oceania.jpg" alt="Oceania Cover Art" class="card-image" loading="lazy">
 
 <div class="card-content">
@@ -77,55 +103,6 @@ Where Oceanic Roots Meet Contemporary Poetry
 :::
 
 
-::: {.song-card data-genre="chanson" role="article" aria-labelledby="parfum-title"}
-::: {.card-inner}
-<img src="/images/ton_parfum_dans_lair.png" alt="Ton Parfum dans l'Air Cover Art" class="card-image" loading="lazy">
-
-<div class="card-content">
-<div class="song-meta">
-<span class="release-year">2025</span>
-<span class="song-badge">🌹 Poetic Chanson</span>
-</div>
-
-<h2 class="song-title" id="parfum-title">Ton Parfum dans l'Air</h2>
-
-<div class="lyrics-preview" id="parfum-lyrics" aria-expanded="false">
-"Une bouteille à la main, près d'un parc qui s'enfuit..."
-<button class="reveal-lyrics" aria-controls="parfum-lyrics" aria-expanded="false">Show More</button>
-</div>
-
-<div class="song-actions">
-<a href="https://suno.com/song/ee7f883e-b3cf-4d30-9d8e-cedaebb1550b?sh=YiUd4lBCxc9qvVO0" class="cta-button small primary" aria-label="Stream Ton Parfum dans l'Air">Stream Now</a>
-<a href="/songs/ton_parfum_dans_lair.html" class="cta-button small secondary" aria-label="View full lyrics for Ton Parfum dans l'Air">Full Lyrics</a>
-</div>
-</div>
-:::
-:::
-
-::: {.song-card data-genre="soul" role="article" aria-labelledby="unblock-title"}
-::: {.card-inner}
-<img src="/gallery/unblock.jpg" alt="Unblock Yourself to Me Cover Art" class="card-image" loading="lazy">
-
-<div class="card-content">
-<div class="song-meta">
-<span class="release-year">2012</span>
-<span class="song-badge">💔 Soul Ballad</span>
-</div>
-
-<h2 class="song-title" id="unblock-title">Unblock Yourself to Me</h2>
-
-<div class="lyrics-preview" id="unblock-lyrics" aria-expanded="false">
-"Tell me that you love me forever..."
-<button class="reveal-lyrics" aria-controls="unblock-lyrics" aria-expanded="false">Show More</button>
-</div>
-
-<div class="song-actions">
-<a href="https://youtube.com/unblock" class="cta-button small primary" aria-label="Stream Unblock Yourself to Me">Stream Now</a>
-<a href="/songs/unblock.html" class="cta-button small secondary" aria-label="View full lyrics for Unblock Yourself to Me">Full Lyrics</a>
-</div>
-</div>
-:::
-:::
 
 :::
 

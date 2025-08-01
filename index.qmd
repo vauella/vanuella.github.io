@@ -1,25 +1,22 @@
 ---
 title: "Vanuella Watt"
-subtitle: "Experience unique, interactive performances where Vanuella generates music in real-time based on your requests and chat interactions."
+subtitle: "Soulful melodies meet powerful narratives"
 title-block-banner: true
 page-layout: full
 anchor-sections: false
 css: vanuella.css
 ---
-
-
+ 
 ::: {.hero}
 ::: {.hero-content}
 
-# Live AI Music, Powered By You{.hero-title}
+# Music That Moves You {.hero-title}
 
 ::: {.hero-subtitle}
-
-Every beat is created live based on chat — Shape the Next Track, shape moods, and hear music you can't find anywhere else.
-
+Raw emotional storytelling through contemporary soul and urban poetry
 :::
 
-[![Twitch Icon](images/twitch_wordmark_extruded_purple.png)](https://www.twitch.tv/vanuellasing){.cta-button .primary}
+[![Link](images/la-meme-couleur-de-coeur.jpg)](https://bfan.link/la-meme-couleur-de-coeur){.cta-button .primary}
 
 
 :::
@@ -27,22 +24,16 @@ Every beat is created live based on chat — Shape the Next Track, shape moods, 
 
 ::: {.social-section}
 ::: {.social-grid}
-<a href="https://www.twitch.tv/vanuellasing" class="social-card" target="_blank">
+<a href="https://bfan.link/la-meme-couleur-de-coeur" class="social-card" target="_blank">
 <img src="images/twitch_wordmark_extruded_purple.png" alt="Twitch" class="social-icon">
 <h3>Live Streams</h3>
 <p>Experience real-time AI music creation</p>
 </a>
 
-<a href="https://www.patreon.com/vanuella" class="social-card" target="_blank">
-<img src="images/PATREON_SYMBOL_1_WHITE_RGB.png" alt="Patreon" class="social-icon">
-<h3>Exclusive Content</h3>
-<p>Behind-the-scenes & early access</p>
-</a>
-
-<a href="https://twitter.com/VanuellaSing" class="social-card" target="_blank">
-<img src="images/twitter-x.png" alt="Twitter" class="social-icon">
-<h3>Latest Updates</h3>
-<p>News & announcements</p>
+<a href="https://music.apple.com/us/artist/vanuella-watt/123456789" class="social-card" target="_blank">
+<img src="images/Apple-Music-Logo.png" alt="Apple Music" class="social-icon">
+<h3>Apple Music</h3>
+<p>Hi-fi streaming</p>
 </a>
 
 <a href="https://youtube.com/@VanuellaSing" class="social-card" target="_blank">
@@ -61,94 +52,66 @@ Every beat is created live based on chat — Shape the Next Track, shape moods, 
 <span class="vibe-quote">"Music that evolves with you. Let's vibe!"</span>
 :::
 
-::: {.features}
-::: {.feature}
-::: {.feature-icon}
-🎵
-:::
 
-### Real-Time AI Generation
 
-Every performance is unique with music generated on-the-fly based on viewer requests and mood.
-:::
-
-::: {.feature}
-::: {.feature-icon}
-💬
-:::
-
-### Interactive Experience
-
-Chat directly influences the music - suggest genres, moods, or even specific song elements.
-:::
-
-::: {.feature}
-::: {.feature-icon}
-✨
-:::
-
-### One-of-a-Kind Tracks
-
-Each stream creates exclusive music you won't hear anywhere else, with recordings available afterward.
-:::
-:::
 
 ::: {#tracks .tracks-section}
-## Latest AI-Generated Tracks {.section-title}
+## Featured Releases {.section-title}
 :::
 
 ::: {.tracks-grid}
 ::: {.track-card}
-::: {.track-image}
-🎶
+
+[![La même couleur de cœur](images/la-meme-couleur-de-coeur.jpg)](https://bfan.link/la-meme-couleur-de-coeur)
+
 :::
 
 ::: {.track-info}
-### Respire
 
-Ethereal synthwave vibes created during our late-night chill stream.
+### La même couleur de cœur (2025)
 
-[Jam With Me Live →](/songs/respire.qmd){.track-link}
+Urban soul anthem exploring shared humanity in crisis  
+**Listen on:**  
+[Spotify](https://open.spotify.com/album/2HuUKmGfawk5T7xTcyVnlC?referral=labelaffiliate&utm_source=1101lBzPjo75&utm_medium=Indie_Believe&utm_campaign=labelaffiliate) | [Apple Music](https://music.apple.com/at/album/la-meme-couleur-de-coeur-single/1828044682) | [YouTube](https://www.youtube.com/embed/W-sjH2Cx8IM?si=p-9mKb-FG11gnM_O)
 :::
 :::
 
+::: {.tracks-grid}
 ::: {.track-card}
-::: {.track-image}
-🎶
+
+[![Respire](images/respire.png)](https://bfan.link/respire)
 :::
 
 ::: {.track-info}
-### Parfum Dans L'air
 
-Chill lo-fi beats generated from viewer suggestions about summer memories.
+### Respire (2024)
 
-[Jam With Me Live →](/songs/ton_parfum_dans_lair.qmd){.track-link}
-:::
-:::
+Atmospheric meditation on healing and breath  
 
+**Listen on:**  
+[Spotify](https://open.spotify.com/track/4gyRMpHgs0SISYIYh0RHrG?si=12c0001c01cf437e) 
 
-::: {.track-card}
-::: {.track-image}
-🎶
-:::
-
-::: {.track-info}
-### Oceania
-
-This pan-Pacific anthem creates a musical tapestry connecting Melanesia, Polynesia, and Micronesia through its multilingual composition.
-
-[Jam With Me Live →](/songs/oceania.qmd){.track-link}
 :::
 :::
 
+
+::: {.live-section}
+## Experience Live {.section-title}
+::: {.live-grid}
+::: {.live-card}
+### Upcoming Shows
+
+
+[Tickets & Info →](http://vanuella.com)
 :::
 
-::: {.testimonial-section}
-## What Viewers Are Saying
+::: {.live-card}
+### Session Videos
+- _La même couleur de cœur_ (Live at Abbey Road)  
+- _Respire_ (Acoustic Forest Session)  
+- _Oceania_ (with Traditional Dance Troupe)  
 
-::: {.testimonial}
-*"It’s like watching magic happen in real-time. I asked for synthwave rain beats… and got them."*  
-— @SleeplessInSpacetime
+[Watch on YouTube →](https://youtube.com/@VanuellaSing)
 :::
-
+:::
 :::

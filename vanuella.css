@@ -1115,20 +1115,41 @@ html[lang="en"] [data-lang="en"] {
 }
 
 
-/* Lyrics Styles */
+/* --- NEW: LYRICS BLOCK STYLES (No Background Version) --- */
 .lyrics {
-  font-family: 'Georgia', serif;
-  /* Distinct font for lyrics */
-  line-height: 1.8;
-  padding: 1.5rem;
-  background-color: var(--bg-card);
-  /* Use card background */
-  border-left: 4px solid var(--accent-color-secondary);
-  /* Use accent color */
-  margin: 1.5rem 0;
-  /* Consistent margin */
+  /* We removed background, box-shadow, and padding to make it float */
+  border-left: 3px solid var(--primary-blue); /* A subtle left border to anchor it */
+  padding-left: 2rem;                       /* Space between border and text */
+  margin: 3rem auto;                          /* Vertical and horizontal centering */
+  max-width: 600px;                           /* Optimal reading width */
+  font-family: var(--font-primary);
+}
+
+.lyrics h3 {
+  /* The title is no longer centered, aligning with the text */
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 2rem; /* More space after the title */
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block; /* Ensures gradient only covers the text */
+}
+
+.lyrics p {
+  font-size: 1.15rem; /* Slightly larger for readability */
+  line-height: 1.9;   /* More open line spacing */
   color: var(--text-color);
-  /* Light text */
+  margin-bottom: 2em; /* Generous space between stanzas */
+  white-space: pre-wrap;
+  text-align: left; /* Align text to the left for a classic look */
+}
+
+.lyrics p:last-child {
+  margin-bottom: 0;
 }
 
 /* Song Listing Headers (if used) */
