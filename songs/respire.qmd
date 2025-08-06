@@ -43,7 +43,7 @@ tags$a(
   target = "_blank",
   style = "background-color: #9146FF; border-color: #9146FF; padding: 15px 30px; font-size: 1.2em;",
   tags$i(class = "fab fa-twitch", style = "margin-right: 10px;"),
-  "Join Vanuella on Twitch!"
+  "Join Vanuella Watt on Twitch!"
 )
 ```
 :::

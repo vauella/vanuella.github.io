@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Vanuella"
+  title: "Vanuella Watt"
   description: "Discover the musical universe that creates the bridge between music and love through the soul"
   image: images/vanu-ai-logo-150px.png
   favicon: images/vanu-flavicon.png
@@ -47,7 +47,7 @@ website:
         href: events/about.qmd
 
   page-footer:
-    left: "Copyright © 2025 Vanuella. All rights reserved."
+    left: "Copyright © 2025 Vanuella Watt. All rights reserved."
     right:
       - icon: facebook
         href: https://www.facebook.com/profile.php?id=61575253262807  # Update with your actual Facebook URL

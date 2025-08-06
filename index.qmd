@@ -24,13 +24,13 @@ Raw emotional storytelling through contemporary soul and urban poetry
 
 ::: {.social-section}
 ::: {.social-grid}
-<a href="https://bfan.link/la-meme-couleur-de-coeur" class="social-card" target="_blank">
-<img src="images/twitch_wordmark_extruded_purple.png" alt="Twitch" class="social-icon">
-<h3>Live Streams</h3>
-<p>Experience real-time AI music creation</p>
+<a href="https://www.tiktok.com/@vanuellawatt" class="social-card" target="_blank">
+<img src="images/tiktok-logo.png" alt="Twitch" class="social-icon">
+<h3>TikTok</h3>
+<p>Experience music creation on TikTok</p>
 </a>
 
-<a href="https://music.apple.com/us/artist/vanuella-watt/123456789" class="social-card" target="_blank">
+<a href="https://music.apple.com/us/artist/vanuella-watt/582711995" class="social-card" target="_blank">
 <img src="images/Apple-Music-Logo.png" alt="Apple Music" class="social-icon">
 <h3>Apple Music</h3>
 <p>Hi-fi streaming</p>
@@ -89,7 +89,7 @@ Urban soul anthem exploring shared humanity in crisis
 Atmospheric meditation on healing and breath  
 
 **Listen on:**  
-[Spotify](https://open.spotify.com/track/4gyRMpHgs0SISYIYh0RHrG?si=12c0001c01cf437e) 
+[Spotify](https://open.spotify.com/track/4gyRMpHgs0SISYIYh0RHrG?si=12c0001c01cf437e) | [YouTube](https://www.youtube.com/embed/ukm3n2Fpdck?si=GOeyyPpiijxBw6-T)
 
 :::
 :::
@@ -107,9 +107,8 @@ Atmospheric meditation on healing and breath
 
 ::: {.live-card}
 ### Session Videos
-- _La même couleur de cœur_ (Live at Abbey Road)  
-- _Respire_ (Acoustic Forest Session)  
-- _Oceania_ (with Traditional Dance Troupe)  
+[_La même couleur de cœur_](https://youtube.com/shorts/AmKIDm_9zC4?si=mFYmJzNXFbzX0WLC)
+
 
 [Watch on YouTube →](https://youtube.com/@VanuellaSing)
 :::

@@ -48,7 +48,7 @@ Experience Vanuella's musical journey through Oceania
 <!-- Nolwenn Leroy Opening -->
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4 .event-card data-category="concert"}
 ::: {.event-card-inner}
-![Poster announcing Vanuella Watt opening for Nolwenn Leroy.](images/media/nolwenn-opening.jpg){.event-image}
+![Vanuella Watt opening for Nolwenn Leroy.](/gallery/vanu_concert.jpg){.event-image}
 
 ::: {.event-content}
 ::: {.event-badge}
