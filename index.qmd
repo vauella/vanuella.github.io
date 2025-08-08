@@ -1,29 +1,81 @@
 ---
-title: "Vanuella Watt"
-subtitle: "Soulful melodies meet powerful narratives"
-title-block-banner: true
 page-layout: full
 anchor-sections: false
 css: vanuella.css
 ---
  
-::: {.hero}
-::: {.hero-content}
+```{=html}
+<div class="featured-content">
+    <div class="content-header">
+        <div class="featured-badge">✨ Latest on TikTok</div>
+        <h1 class="content-title">La même couleur de cœur</h1>
+        <p class="content-subtitle">Spreading love and unity through music - now viral on TikTok</p>
+    </div>
 
-# Music That Moves You {.hero-title}
+    <div class="creator-info">
+        <div class="creator-avatar">VW</div>
+        <div class="creator-details">
+            <h3>@vanuellawatt</h3>
+            <p>Soul Artist • Message of Peace</p>
+        </div>
+    </div>
 
-::: {.hero-subtitle}
-Raw emotional storytelling through contemporary soul and urban poetry
-:::
+    <div class="tiktok-container">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@vanuellawatt/video/7535973875096538386" data-video-id="7535973875096538386">
+            <section>
+                <a target="_blank" title="@vanuellawatt" href="https://www.tiktok.com/@vanuellawatt?refer=embed">@vanuellawatt</a>
+                <a title="viraltiktok" target="_blank" href="https://www.tiktok.com/tag/viraltiktok?refer=embed">#viraltiktok</a>
+                <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a>
+                <a title="for" target="_blank" href="https://www.tiktok.com/tag/for?refer=embed">#for</a>
+                <a title="foryoupageofficiall" target="_blank" href="https://www.tiktok.com/tag/foryoupageofficiall?refer=embed">#foryoupageofficiall</a>
+                <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a>
+                <a title="pourtoii" target="_blank" href="https://www.tiktok.com/tag/pourtoii?refer=embed">#pourtoii</a>
+                <a title="love" target="_blank" href="https://www.tiktok.com/tag/love?refer=embed">#love</a>
+                <a title="peace" target="_blank" href="https://www.tiktok.com/tag/peace?refer=embed">#peace</a>
+                <a title="world" target="_blank" href="https://www.tiktok.com/tag/world?refer=embed">#world</a>
+                <a title="nowar" target="_blank" href="https://www.tiktok.com/tag/nowar?refer=embed">#nowar</a>
+                <a title="singwithme" target="_blank" href="https://www.tiktok.com/tag/singwithme?refer=embed">#singwithme</a>
+                <a title="vibes" target="_blank" href="https://www.tiktok.com/tag/vibes?refer=embed">#vibes</a>
+                <a title="vanuellawatt" target="_blank" href="https://www.tiktok.com/tag/vanuellawatt?refer=embed">#VanuellaWatt</a>
+                <a title="lamemecouleurdecoeur" target="_blank" href="https://www.tiktok.com/tag/lamemecouleurdecoeur?refer=embed">#lamemecouleurdecoeur</a>
+                <a target="_blank" title="♬ son original - Vanuella Watt" href="https://www.tiktok.com/music/son-original-7535973917682043665?refer=embed">♬ son original - Vanuella Watt</a>
+            </section>
+        </blockquote>
+    </div>
 
-[![Link](images/la-meme-couleur-de-coeur.jpg)](https://bfan.link/la-meme-couleur-de-coeur){.cta-button .primary}
+    <div class="hashtag-cloud">
+        <a href="https://www.tiktok.com/tag/love" class="hashtag" target="_blank">love</a>
+        <a href="https://www.tiktok.com/tag/peace" class="hashtag" target="_blank">peace</a>
+        <a href="https://www.tiktok.com/tag/world" class="hashtag" target="_blank">world</a>
+        <a href="https://www.tiktok.com/tag/nowar" class="hashtag" target="_blank">nowar</a>
+        <a href="https://www.tiktok.com/tag/singwithme" class="hashtag" target="_blank">singwithme</a>
+        <a href="https://www.tiktok.com/tag/vibes" class="hashtag" target="_blank">vibes</a>
+        <a href="https://bfan.link/la-meme-couleur-de-coeur" class="hashtag" target="_blank">stream now</a>
+    </div>
 
+    <div class="action-buttons">
+        <a href="https://www.tiktok.com/@vanuellawatt" class="btn btn-primary" target="_blank">
+            Follow on TikTok
+        </a>
+        <a href="https://bfan.link/la-meme-couleur-de-coeur" class="btn btn-secondary" target="_blank">
+            Stream the Song
+        </a>
+    </div>
 
-:::
-:::
+    <div class="music-credit">
+        <span class="music-icon">♬</span>
+        "La même couleur de cœur" - Available on all platforms
+    </div>
+</div>
+
+<script async src="https://www.tiktok.com/embed.js"></script>
+```
+
 
 ::: {.social-section}
 ::: {.social-grid}
+
+
 <a href="https://www.tiktok.com/@vanuellawatt" class="social-card" target="_blank">
 <img src="images/tiktok-logo.png" alt="Twitch" class="social-icon">
 <h3>TikTok</h3>

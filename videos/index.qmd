@@ -9,14 +9,47 @@ title-block-banner: true
 ::: {#lamemecouleurdecaeur .video-item}
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yBW5KtucHW0?si=rWDzI8YFoh--DsVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yBW5KtucHW0?si=rWDzI8YFoh--DsVs" title="La même couleur de cœur" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+:::
+
+::: {#lamemecouleurdecaeur .video-item}
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3vSbm_e7-7A?si=VMfsibXxg7MbzKz-" title="La même couleur de cœur noir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::
+
+::: {#lamemecouleurdecaeur .video-item}
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VNXhpotqZ9w?si=S22TnmmaI9QoqcTZ" title="La même couleur de cœur update" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::
+
+::: {#lamemecouleurdecaeur .video-item}
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HspoElb07Y8?si=8mqyhKXCawd0TAjJ" title="La même couleur de cœur city fire" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::
+
+::: {#lamemecouleurdecaeur .video-item}
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lXq0o2v2ogI?si=jyjdcrenQE39LoFP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 :::
 
 
 ::: {#Respire1 .video-item}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/59LXID6Cos8?si=4InlrZ_8Yxw2fKFF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/59LXID6Cos8?si=4InlrZ_8Yxw2fKFF" title="Une femme court désespérément à travers les rues en flammes pour sauver son enfant" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+
+:::
+
+::: {#Respire2 .video-item}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ukm3n2Fpdck?si=YciC5u1vMopexIRa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 :::
 
